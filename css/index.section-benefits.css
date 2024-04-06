@@ -1,6 +1,6 @@
 .benefits__title{
     font-family: "Spectral", serif;
-    color:#bc6e44;
+    color: var(--title-color);
     font-size: 12px;
     letter-spacing: 2.4px;
 }
@@ -34,7 +34,7 @@
 
 }
 .vineyard-tours{
-    background-color: #bc6e44;
+    background-color: var(--title-color);
     padding: 30px;
 }
 .vineyard-tours__description{
@@ -51,7 +51,7 @@
 .vineyard-tours__button{
     font-family: "Spectral", serif;
     font-size: 16.5px;
-    background-color: #bc6e44;
+    background-color: var(--title-color);
     border-color: #fff;
     border-style:solid;
     color: #fff;

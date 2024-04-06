@@ -6,6 +6,7 @@
 
 :root {
     scroll-behavior: smooth;
+    --title-color:#bc6e44;
 }
 
 img {
