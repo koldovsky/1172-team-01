@@ -1,5 +1,32 @@
+.section-categories {
+    padding: 110px 0px 30px;
+}
+
 .categories__title {
+    color: #bc6e44;
     font:spectral;
-    font-size: 50px;
-    color: red;
+    font-size: inherit;
+}
+.categories__description {
+    font-family: Cormorant Infant;
+    font-size: 52px;
+    color: #2a2824;
+}
+.categories__action{
+    color: #837d71;
+}
+.categories__action_list{
+    color: #544e4c;
+    padding: 20px 20px 20px;
+    font-family: Cormorant Infant;
+    font-size: 36px;
+}
+.categories__additional-info{
+    color: #837d71;
+    font-family: spectral;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
