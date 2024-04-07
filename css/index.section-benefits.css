@@ -19,7 +19,7 @@
 .benefits__text{
     font-family: "Spectral", serif;
     font-size: 19px;
-    color: #837d71;
+    color: var(--text-color)
 }
 .benefits__feature-title{
     font-family: "Cormorant Infant", serif;
@@ -30,7 +30,7 @@
     font-family: "Spectral", serif;
     font-size: 17px;
     font-weight: 300;
-    color: #837d71; 
+    color: var(--text-color)
 }
 .vineyard-tours{
     background-color: var(--title-color);

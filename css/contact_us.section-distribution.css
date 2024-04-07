@@ -1,0 +1,53 @@
+.distribution__title{
+    font-family: "Spectral", serif;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: var(--title-color);
+}
+.distribution__subtitle{
+    font-family: "Cormorant Infant", serif;
+    font-size: 52px;
+    font-weight: 400;
+}
+.distribution__description{
+    font-family: "Spectral", serif;
+    font-size: 19px;
+    color: var(--text-color);
+}
+.distribution__item{
+    width: 266px;
+    height: 195px;
+    padding: 30px;
+    border: 1px solid rgb(248, 244, 244);
+    margin: 15px;
+}
+.distribution__item-title{
+    font-family: "Spectral", serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(84, 78, 76);
+
+}
+.distribution__item-location{
+    font-family: "Spectral", serif;
+    font-size: 17px;
+    color: var(--title-color);
+    font-weight: 300;
+    font-style: italic;
+}
+.distribution__item-contact, .distribution__item-email, .distribution__footer-text{
+    font-family: "Spectral", serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--text-color);
+}
+.distribution__footer-warning{
+    font-family: "Spectral", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--text-color);
+}
+.distribution__footer-star{
+    color: var(--title-color);
+}

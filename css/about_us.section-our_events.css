@@ -12,7 +12,7 @@
 .events-header__description-text{
     font-family: "Spectral", serif;
     font-size: 19px;
-    color: #837d71;
+    color: var(--text-color);
 }
 .event-details{
     border-bottom: 1px solid #faf8f2;
@@ -23,11 +23,11 @@
     font-weight: 400;
 }
 .event-details__date, .event-details__time{
-font-family: "Spectral", serif;
-font-style: italic;
-font-size: 17px;
-font-weight: 300;
-color: #837d71; 
+    font-family: "Spectral", serif;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--text-color);
 }
 .contact-icon__image{
     width: 26px;
@@ -37,13 +37,18 @@ color: #837d71;
     font-family: "Spectral", serif;
     font-size: 12px;
     font-weight: 700;
-    color: #837d71;
+    color: var(--text-color);
     text-transform: uppercase;
     letter-spacing: 2.4px;
 }
 .contact-details__info{
     font-family: "Spectral", serif;
     font-size: 17px;
-    color: #837d71;;
-
+    color: var(--text-color);
+}
+.distribution__footer-warning{
+    font-family: "Spectral", serif;
+    font-size: 15px;
+    color: var(--text-color);
+    font-style: italic;
 }
