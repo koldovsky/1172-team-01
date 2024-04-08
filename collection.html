@@ -13,14 +13,23 @@
 </head>
 
 <body>
-    <section class="head-collection">
-        <div>
-            <h1>Our Collection</h1>
-            <p>Home ></p>
-            <a href="#">Our collection</a>
-        </div>
-    </section>
+    <header>
+        <address class="header__address" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-address.partial.html">
+        </address>
+
+        <nav class="header__menu" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-menu.partial.html"></nav>
+    </header>
+
+
     <main>
+        <section class="head-collection">
+            <div>
+                <h1>Our Collection</h1>
+                <p>Home ></p>
+                <a href="#">Our collection</a>
+            </div>
+        </section>
+        
         <section class="wine-content">
             <div class="white-wine">
                 <div class="wine-category" id="white-wine">

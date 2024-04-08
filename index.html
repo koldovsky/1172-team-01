@@ -1,75 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--Блок 1-2 | Данілевич-->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="shortcut icon"
-      href="https://placekitten.com/96/139"
-      type="image/x-icon"
-    />
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon" />
+  <script src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--Блок 1-2 | Юля Данілевич-->
+  <header class="header">
+    <address class="header__address" data-hx-trigger="load" data-hx-swap="outerHTML"
+      data-hx-get="common.header-address.partial.html"></address>
+
+    <nav class="header__menu" data-hx-trigger="load" data-hx-swap="outerHTML"
+      data-hx-get="common.header-menu.partial.html"></nav>
+
+    <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-welcomepage.partial.html"></div>
+  </header>
+
+  <main>
     <!--Блок 3 | Каліберда-->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-about-us.partial.html"
-    ></section>
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-gourmand-choice.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-about-us.partial.html">
+    </section>
+
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-gourmand-choice.partial.html">
+    </section>
+
     <!--Блок 4 | Гриців Альбіна-->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-benefits.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-benefits.partial.html">
+    </section>
+
     <!--Блок 5 | Капиця Іван -->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-categories.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-categories.partial.html">
+    </section>
+
     <!--Блок 6 | Валько Владислава -->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-blog.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-blog.partial.html"></section>
+
     <!--Блок 7 | Берчак Андрій -->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-our-vineyards.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-our-vineyards.partial.html">
+    </section>
+
     <!--Блок 8 | Карандашов Артем-->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-testimonials.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-testimonials.partial.html">
+    </section>
+
     <!--Блок 9 | Гудз Михайло-->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="index.section-come-visit-us.partial.html"
-    ></section>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.section-come-visit-us.partial.html">
+    </section>
+  </main>
+
+  <footer id="footer">
+    <!--added "#footer" to test this function on header-->
     <!--Блок 13 | Берчак Андрій -->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="common.footer.partial.html"
-    ></section>
-  </body>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.footer.partial.html"></section>
+  </footer>
+</body>
+
 </html>
