@@ -1,0 +1,58 @@
+.benefits__title{
+    font-family: "Spectral", serif;
+    color: var(--title-color);
+    font-size: 12px;
+    letter-spacing: 2.4px;
+}
+.benefits__description{
+    font-family: "Cormorant Infant", serif;
+    font-size: 52px;
+    font-weight: 400;
+.benefits_description-fonts{
+    font-family: "Cormorant Upright", serif;
+}
+}
+.benefits__feature-image{
+    width: 65px;
+    height: 70px;
+}
+.benefits__text{
+    font-family: "Spectral", serif;
+    font-size: 19px;
+    color: var(--text-color)
+}
+.benefits__feature-title{
+    font-family: "Cormorant Infant", serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+.benefits__feature-description{
+    font-family: "Spectral", serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--text-color)
+}
+.vineyard-tours{
+    background-color: var(--title-color);
+    padding: 30px;
+}
+.vineyard-tours__description{
+    font-family: "Cormorant Infant", serif;
+    font-size: 36px;
+    color: #fff;;
+}
+.vineyard-tours__text{
+    font-family: "Spectral", serif;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.76);
+    font-weight: 300;
+}
+.vineyard-tours__button{
+    font-family: "Spectral", serif;
+    font-size: 16.5px;
+    background-color: var(--title-color);
+    border-color: #fff;
+    border-style:solid;
+    color: #fff;
+    padding: 10px 15px;
+}

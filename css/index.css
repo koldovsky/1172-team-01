@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500&family=Cormorant+Upright&family=Spectral:wght@300;400;500&display=swap');
+@import url(global.css);
+@import url(index.section-categories.partial.css);
+@import url(index.section-benefits.css);
+@import url(index.section-testimonials.partial.css);

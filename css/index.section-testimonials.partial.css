@@ -1,0 +1,62 @@
+.testimonials{
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonials__title{
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    color: #2a2824;
+    padding: auto;
+    text-align: center;
+}
+
+.testimonials__text{
+    font-family: Cormorant Infant;
+    font-size: 40px;
+    text-align: center;
+    color: #2a2824;
+}
+
+.testimonials__intro{
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    color: #2a2824;
+    text-align: center;
+}
+
+
+.testimonial{
+    padding: 20px 20px 20px;
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    color: #544e4c;
+    text-align: center;
+}
+
+.events{
+    padding: 20px 20px 20px;
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    color: #544e4c;
+    text-align: center;
+}
+
+/* /five columns for events by using flexbox/ */
+.events {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.events__item{
+    width: 20%;
+    padding: 20px 20px 20px;
+    font-family: Cormorant Infant;
+    font-size: 36px;
+    color: #544e4c;
+    text-align: center;
+    height: 100%;
+}

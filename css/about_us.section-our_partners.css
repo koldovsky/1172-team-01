@@ -1,0 +1,26 @@
+.our_partners_header-title {
+    font-family: "Spectral", serif;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: #bc6e44;
+}
+
+.our_partners-header-main_text {
+    font-family: "Cormorant Infant", serif;
+    font-size: 52px;
+    font-weight: 400;
+    color: black;
+}
+
+.our_partners-header-main_text-span {
+    color: #bc6e44
+}
+
+.our_partners-header-description {
+    color: #837d71;
+    font-family: "Spectral", serif;
+    font-size: 19px;
+}
+.block_of_image{
+    max-width: 50%;
+}
