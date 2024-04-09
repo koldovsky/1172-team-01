@@ -10,8 +10,19 @@
     font-weight: 400;
     color: black;
 }
-.our_team-header-description{
+.description{
     color: #837d71;
     font-family: "Spectral", serif;
     font-size: 19px;
+}
+.proffesion{
+    color: #bc6e44;
+    font-size: inherit;
+    font-style: italic;
+}
+.name_surname{
+    color: black;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 400;
+    font-size: 25px;
 }
