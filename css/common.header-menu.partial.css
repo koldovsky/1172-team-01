@@ -10,3 +10,27 @@ header {
     width: 100px;
     height: 100px;
 }
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.header__menu-link {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: rgb(162, 169, 173);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2px 20px;
+}
+
