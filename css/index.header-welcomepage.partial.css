@@ -24,3 +24,36 @@
     color: white;
     font-size: 13px;
 }
+
+.header-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+
+.header-card__item {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.header-card__item-link {
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.header-card__item-text {
+    display: block;
+    margin-top: 15px;
+    transform: skewX(-10deg);
+    color: #bc6e44;
+    font-size: 13px;
+}
+
+.white__underline {
+    display: block;
+    margin-top: 13px;
+    border-top: 1px solid gray;
+    width: 100%;
+}
