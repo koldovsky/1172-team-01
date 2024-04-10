@@ -1,7 +1,7 @@
 .welcome-text__main {
     margin-top: 200px;
     display: block;
-    font-family: sans-serif;
+    font-family: "Spectral",serif;
     text-align: center;
     color: #bc6e44;
     font-size: 11px;
@@ -10,7 +10,7 @@
 .welcome-text__enjoy {
     margin-top: 20px;
     display: block;
-    font-family: sans-serif;
+    font-family: s"Spectral",serif;
     text-align: center;
     color: white;
     font-size: 72px;
@@ -19,7 +19,7 @@
 .welcome-text__invitation-visit {
     margin-top: 30px;
     display: block;
-    font-family: sans-serif;
+    font-family: "Spectral",serif;
     text-align: center;
     color: white;
     font-size: 13px;
