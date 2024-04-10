@@ -22,6 +22,7 @@
 
 .categories__description {
     display: flex;
+    justify-content: flex-start;
     font-family: Cormorant Infant;
     font-size: 52px;
     color: #2a2824;
@@ -34,21 +35,20 @@
 
 .categories__action_list {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-emphasis-color: #837d71;
     flex: 1;
+    flex-direction:row;
+    text-emphasis-color: #837d71;
     color: #544e4c;
-    padding: 20px 20px 20px;
     font-family: Cormorant Infant;
     font-size: 36px;
 }
 
 .categories__link {
+    display: flex;
+    flex: 1;
+    justify-content:space-evenly;
     text-decoration: underline;
     color: #2a2824;
-    display: flex;
-    flex: 3;
 }
 
 .categories__additional-info {
@@ -56,10 +56,6 @@
     color: #837d71;
     font-family: spectral;
     font-size: 17px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 
@@ -68,29 +64,28 @@
 .section-categories__items {
     padding: 30px 0px 90px;
     display: flex;
-    flex: content;
+    justify-content: space-around;
 }
 
 .section-categories__item {
-    padding: 10px 20px;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: auto;
-    flex-direction: row;
-    gap: 10px;
+    background-color: white;
+    max-width: 20%;
+    max-height:20%;
+    padding: 20px 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
 }
 
 .section-categories__item-image {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 .section-categories__item-title {
-    display: flex;
-    flex-direction: row;
+    
     font-family: Cormorant Infant;
     font-weight: 500;
     font-size: 26px;
@@ -98,14 +93,15 @@
 }
 
 .section-categories__item-description {
-    display: flex;
-    flex-direction: row;
+    
     color: #837d71;
     font-family: spectral;
 }
 
 .section-categories__item-button{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
+    background-color: #bc6e44;
+    font: spectral;
+    font-size: 15px;
+    color: white;
+
 }
