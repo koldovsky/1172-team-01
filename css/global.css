@@ -14,3 +14,12 @@ img {
     display: block;
     width: 100%;
 }
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+@media (min-width: 980px) {
+    .container {
+        padding: 0 30px;
+    }
+}

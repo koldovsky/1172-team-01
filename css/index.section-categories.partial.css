@@ -2,6 +2,10 @@
     padding: 110px 0px 30px;
 }
 
+.categories__text{
+    padding: 90px 0px 30px;
+}
+
 .categories__title {
     color: #bc6e44;
     font:spectral;
@@ -16,6 +20,7 @@
     color: #837d71;
 }
 .categories__action_list{
+    flex: auto;
     color: #544e4c;
     padding: 20px 20px 20px;
     font-family: Cormorant Infant;
