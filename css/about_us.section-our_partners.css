@@ -1,3 +1,8 @@
+.our_partners{
+    display: flex;
+    align-items: center;
+    
+}
 .our_partners_header-title {
     font-family: "Spectral", serif;
     font-size: 12px;
