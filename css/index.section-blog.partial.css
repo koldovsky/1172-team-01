@@ -1,0 +1,7 @@
+.blog__content {
+    color: var(--text-color)
+}
+.blog__metadata {
+    color: var(--text-color);
+    font-style: italic;
+}
