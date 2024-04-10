@@ -83,6 +83,9 @@
 .section-categories__item-image {
     width: 70px;
     height: 70px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
 }
 
 .section-categories__item-title {
@@ -101,3 +104,8 @@
     font-family: spectral;
 }
 
+.section-categories__item-button{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
