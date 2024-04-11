@@ -1,0 +1,38 @@
+.come-visit-us{
+    background-color: brown;
+    min-height: 400px;
+    height: 100vh;
+    background-image: url(../img/background_come-visit-us.jpg);
+    background-size: 100%;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+.come-visit-us__wine-tastings{
+    
+    background-color: white;
+    padding: 31px;
+    margin: 10% 10%;
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 220px;
+}
+.wine-tastings__small--title{
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 2.4px;
+    font-family: serif;
+    color:rgb(188, 110, 68);
+}
+.wine-tastings__title{
+    font-size: 52px;
+    font-family: serif;
+    text-align: left;
+}
+.wine-tastings__text-block{
+    font-size: 17px;
+    color: rgb(131, 125, 113);
+    font-family: serif;
+    text-align: left;
+}
