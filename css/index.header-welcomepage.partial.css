@@ -3,7 +3,7 @@
     display: block;
     font-family: "Spectral",serif;
     text-align: center;
-    color: #bc6e44;
+    color: var(--title-color);
     font-size: 11px;
 }
 
