@@ -15,14 +15,36 @@
     margin-top: 20px;
 }
 
+.header__menu-item {
+    position: relative;
+}
+
 .header__menu-link {
     display: flex;
     justify-content: space-around;
-    font-family: sans-serif;
-    margin-top: 20px;
+    font-family: "Spectral", serif, bold;
     color: rgb(162, 169, 173);
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     padding: 2px 20px;
+    position: relative;
 }
 
+.header__menu-item:hover .header__menu-link {
+    color: white;
+}
+
+.header__menu-link::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.header__menu-item:hover .header__menu-link::before {
+    width: 100%;
+}
