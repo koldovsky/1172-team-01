@@ -18,6 +18,20 @@
         grid-template-rows: 1fr 1fr;    
     }
 }
+.blog__food-and-wine {
+    background-image: url("../img/img_section-blog/background-food-and-wine-block.png");
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog__season-2022 {
+    background-image: url("../img/img_section-blog/background-season-2022.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 86% 40%;
+}
+.blog__sparkling-wine{
+    background: #faf8f2;
+}
 .blog__food-and-wine, .blog__img-harvest, .blog__season-2022, .blog__img-boutles, .blog__sparkling-wine, .blog__img-vineyard {
     max-height: 600px;
     display: flex;
