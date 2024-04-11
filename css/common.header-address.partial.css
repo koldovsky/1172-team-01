@@ -1,0 +1,30 @@
+.address {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    height: 52px;
+    opacity: 0.5;
+}
+
+.address__phone,
+.address__post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 33.3333%;
+    text-align: center;
+}
+
+.address__number,
+.address__post {
+    color: gray;
+    margin: 0 5px;
+}
+
+.address__visit {
+    color: white;
+    font-weight: bold;
+    padding-right: 3px;
+}

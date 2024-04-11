@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wine Club</title>
-    <link
-    rel="shortcut icon"
-    href="https://placekitten.com/96/139"
-    type="image/x-icon"
-  />
-  <script
-    src="https://unpkg.com/htmx.org@1.9.10"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wine Club</title>
+  <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon" />
+  <script src="https://unpkg.com/htmx.org@1.9.10"
     integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
 
-    </header>
-    <main>
-        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="wineclub.main-howitworks.partial.html"></div>
-    </main>
-    <footer>
+  <header>
+    <address class="header__address" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-address.partial.html">
+    </address>
 
-    </footer>
+    <nav class="header__menu" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-menu.partial.html"></nav>
+  </header>
+
+  <main>
+    <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="wineclub.main-howitworks.partial.html"></div>
+  </main>
+  <footer>
+
+  </footer>
 </body>
+
 </html>
