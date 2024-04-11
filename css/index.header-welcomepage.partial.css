@@ -35,6 +35,16 @@
     font-family: "Spectral",serif;
     text-align: left;
     font-size: 20px;
+
+    .header-card__item-link:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2.5px;
+
+        .header-card__item-child::after {
+            content: "→";
+            text-decoration: none;
+        }
+    }
 }
 
 .header-card__item-link {
