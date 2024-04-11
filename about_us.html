@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,6 +18,11 @@
   ></script>
 </head>
 <body>
+  <header>
+    <address class="header__address" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-address.partial.html"></address>
+
+    <nav class="header__menu" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-menu.partial.html"></nav>
+  </header>
     <!-- Блок 5 | Граматович Олександр-->
   <section 
     data-hx-trigger="load" 
@@ -37,10 +43,13 @@
       data-hx-get="about_us.section-our_events.partial.html"
     ></section>
     <!--Блок 8 | Валько Владислава-->
-    <section
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="about_us.section-our_winery.partial.html"
-    ></section>
-  </body>
+    <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="about_us.section-our_winery.partial.html">
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
 </html>
