@@ -21,6 +21,12 @@
 .address__post {
     color: var(--text-color);
     margin: 0 5px;
+    text-decoration: none;
+}
+
+.address__number:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .address__visit {
