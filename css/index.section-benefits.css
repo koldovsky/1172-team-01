@@ -69,7 +69,7 @@
   .vineyard-tours__description {
     font-family: "Cormorant Infant", serif;
     font-size: 30px;
-    color: #fff;
+    color: var(--text-button-color); 
   }
   .vineyard-tours__text {
     font-size: 19px;
@@ -80,9 +80,9 @@
     font-family: "Spectral", serif;
     font-size: 16.5px;
     background-color: var(--title-color);
-    border-color: #fff;
+    border-color: var(--text-button-color);
     border-style: solid;
-    color: #fff;
+    color: var(--text-button-color);
     padding: 10px 15px;
     margin-top: 30px;
   }
@@ -155,7 +155,7 @@
   .vineyard-tours__description {
     font-family: "Cormorant Infant", serif;
     font-size: 36px;
-    color: #fff;
+    color: var(--text-button-color);
   }
   .vineyard-tours__text {
     font-size: 19px;
@@ -166,9 +166,9 @@
     font-family: "Spectral", serif;
     font-size: 16.5px;
     background-color: var(--title-color);
-    border-color: #fff;
+    border-color: var(--text-button-color);
     border-style: solid;
-    color: #fff;
+    color: var(--text-button-color);
     padding: 10px 15px;
     margin-right: 40px;
   }
