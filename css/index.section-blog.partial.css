@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, minmax(16.6%, 300px)); 
+    height: fit-content;
 }
 @media (min-width: 767px) {
     .blog {
@@ -13,27 +14,79 @@
 @media (min-width: 991px) {
     .blog {
         display: grid;
-        grid-template-columns: repeat(3, 33.333%);
-        grid-template-rows: repeat(1, minmax(50%, 565px) minmax(50%, 565px)); 
+        grid-template-columns: repeat(3, 33.333%);    
+        grid-template-rows: 1fr 1fr;    
     }
 }
-.blog__content {
-    color: var(--text-color)
+.blog__food-and-wine {
+    background-image: url("../img/img_section-blog/background-food-and-wine-block.png");
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog__season-2022 {
+    background-image: url("../img/img_section-blog/background-season-2022.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 86% 40%;
+}
+.blog__sparkling-wine{
+    background: #faf8f2;
+}
+.blog__food-and-wine, .blog__img-harvest, .blog__season-2022, .blog__img-boutles, .blog__sparkling-wine, .blog__img-vineyard {
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.blog__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
 }
 .blog__metadata {
-    color: var(--text-color);
+    font-family: "Spectral", serif;
+    color: rgb(84, 78, 76);
     font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 21.4275px;
 }
 .blog__title {
+    font-family: "Cormorant Infant", serif;
     color: #2a2824;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.6px;
+    text-transform: capitalize;
+
+}
+.blog__content {
+    color: var(--text-color);
+    font-family: "Spectral", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
 }
 .blog a {
+    font-family: "Spectral", serif;
     color: var(--title-color);
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 20.4px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-.blog div {
-    display: flex;
-    border: 1px solid red; 
+.blog p {
+    margin-bottom: 20px;
 }
 .blog img {
+    height: 100%;
 object-fit: cover;
 }
+
