@@ -19,7 +19,7 @@
 
 .address__number,
 .address__post {
-    color: gray;
+    color: var(--text-color);
     margin: 0 5px;
 }
 

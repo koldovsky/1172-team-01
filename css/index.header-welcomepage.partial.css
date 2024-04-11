@@ -47,13 +47,13 @@
     display: block;
     margin-top: 15px;
     transform: skewX(-10deg);
-    color: #bc6e44;
+    color: var(--title-color);
     font-size: 13px;
 }
 
 .white__underline {
     display: block;
     margin-top: 13px;
-    border-top: 1px solid gray;
+    border-top: 1px solid var(--text-color);
     width: 100%;
 }

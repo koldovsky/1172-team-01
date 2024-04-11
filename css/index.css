@@ -12,5 +12,5 @@ header {
     background-size: cover;
     background-position: center;
     height: 1100px;
-    color: gray;
+    color: var(--text-color);
 }
