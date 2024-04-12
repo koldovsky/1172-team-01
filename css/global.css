@@ -8,19 +8,15 @@
   margin: 0;
   padding: 0;
 }
+
 :root {
-<<<<<<< HEAD
-  scroll-behavior: smooth;
   --title-color: #bc6e44;
   --text-color: #837d71;
-=======
-    scroll-behavior: smooth;
-    --title-color:#bc6e44;
-    --text-color:#837d71;
-    --text-button-color:#fff;
-    font-family: "Spectral", serif;
->>>>>>> refs/remotes/origin/main
+  --text-button-color: #fff;
+  font-family: "Spectral", serif;
+  scroll-behavior: smooth;
 }
+
 img {
   display: block;
   width: 100%;
