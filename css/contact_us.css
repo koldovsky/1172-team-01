@@ -5,7 +5,7 @@
 @import url(common.header-menu.partial.css);
 
 header {
-    background-image: url('../img/img_contact_us-header/grape-photo.jpeg');  
+    background-image: linear-gradient(rgba(42, 40, 36, 0.85), rgba(42, 40, 36, 0.6)), url('../img/img_contact_us-header/grape-photo.jpeg');  
     background-size: cover;
     background-position: center;
     min-height: 468px;

@@ -1,9 +1,9 @@
-@import url(contact_us.css);
 /* @media (max-width: 767px) {  */
   .distribution {
     background-image: url(../img/img_contact_us.section-destribution/background.svg);
     background-size: cover;
     padding: 110px 0;
+
   }
   .distribution__header {
     display: flex;
