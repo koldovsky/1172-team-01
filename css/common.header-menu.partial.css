@@ -52,3 +52,9 @@
 .header__menu-item:hover .header__menu-link::before {
     width: 100%;
 }
+
+@media (max-width: 900px) {
+    .header__menu-list {
+        display: none;
+    }
+}
