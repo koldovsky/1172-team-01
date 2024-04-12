@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 100%;
     background-color: black;
-    height: 52px;
+    min-height: 52px;
     opacity: 0.5;
 }
 
@@ -21,10 +21,22 @@
 .address__post {
     color: var(--text-color);
     margin: 0 5px;
+    text-decoration: none;
+}
+
+.address__number:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .address__visit {
     color: white;
     font-weight: bold;
     padding-right: 3px;
+}
+
+@media (max-width: 900px) {
+    .address {
+        display: none;
+    }
 }

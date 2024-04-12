@@ -1,3 +1,8 @@
+.header__menu, .welcome-text {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .header__main-logo {
     width: 100px;
     height: 100px;
@@ -20,7 +25,6 @@
 }
 
 .header__menu-link {
-    display: flex;
     justify-content: space-around;
     font-family: "Spectral", serif, bold;
     color: rgb(162, 169, 173);
@@ -47,4 +51,18 @@
 
 .header__menu-item:hover .header__menu-link::before {
     width: 100%;
+}
+
+@media (max-width: 900px) {
+    .header__menu-item {
+        display: none;
+    }
+
+    .header__main-logo {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 2%;
+    }
 }

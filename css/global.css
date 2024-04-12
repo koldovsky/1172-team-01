@@ -9,14 +9,23 @@
   padding: 0;
 }
 :root {
+<<<<<<< HEAD
   scroll-behavior: smooth;
   --title-color: #bc6e44;
   --text-color: #837d71;
+=======
+    scroll-behavior: smooth;
+    --title-color:#bc6e44;
+    --text-color:#837d71;
+    --text-button-color:#fff;
+    font-family: "Spectral", serif;
+>>>>>>> refs/remotes/origin/main
 }
 img {
   display: block;
   width: 100%;
 }
+
 .container {
   max-width: 1200px;
   margin: auto;

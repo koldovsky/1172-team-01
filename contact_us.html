@@ -4,31 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CONTACTS</title>
-    <link rel="stylesheet" href="css/contact_us.css">
+    <link rel="stylesheet" href="css/contact_us.css" />
     <link
-    rel="shortcut icon"
-    href="https://placekitten.com/96/139"
-    type="image/x-icon"
-  />
-  <script
-    src="https://unpkg.com/htmx.org@1.9.10"
-    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-    crossorigin="anonymous"
-  ></script>
-</head>
-<body>
-  <!--Блок 1-header-hero| Гриців Альбіна-->
-    <div
-    data-hx-trigger="load"
-    data-hx-swap="outerHTML"
-    data-hx-get="contact_us.header-hero.partial.html"
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <address
+        class="header__address"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="common.header-address.partial.html"
+      ></address>
+      <nav
+        class="header__menu"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="common.header-menu.partial.html"
+      ></nav>
+      <!--Блок 1-header-hero| Гриців Альбіна-->
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="contact_us.header-hero.partial.html"
       ></div>
-     <!--Блок 4| Гриців Альбіна-->
+    </header>
+    <!--Блок 4| Гриців Альбіна-->
     <section
       data-hx-trigger="load"
       data-hx-swap="outerHTML"
       data-hx-get="contact_us.section-distribution.partial.html"
     ></section>
-  
   </body>
 </html>

@@ -1,9 +1,19 @@
-.contact__title{
-    font-family: "Cormorant Infant", serif;
-    font-size: 52px;
-    font-weight: 400;
+.contact {
+  text-align: center;
+  padding-top: 90px;
 }
-.contact__breadcrumb{
-    font-family: "Spectral", serif;
-    font-size: 17px;
+.contact__title {
+  font-family: "Cormorant Infant", serif;
+  font-size: 52px;
+  font-weight: 400;
+  color: var(--text-button-color);
+  font-style: italic;
+
+}
+.contact__breadcrumb {
+  font-size: 17px;
+  color: var(--text-button-color);
+}
+.contact__breadcrumb--active{
+color: rgba(255,255,255,0.69);
 }
