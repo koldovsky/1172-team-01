@@ -34,3 +34,9 @@
     font-weight: bold;
     padding-right: 3px;
 }
+
+@media (max-width: 900px) {
+    .address {
+        display: none;
+    }
+}
