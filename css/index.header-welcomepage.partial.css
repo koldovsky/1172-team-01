@@ -1,0 +1,87 @@
+.welcome-text__main {
+    margin-top: 200px;
+    display: block;
+    font-family: "Spectral", serif;
+    text-align: center;
+    color: var(--title-color);
+    font-size: 11px;
+}
+
+.welcome-text__enjoy {
+    margin-top: 20px;
+    display: block;
+    font-family: "Spectral", serif;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+}
+
+.welcome-text__invitation-visit {
+    margin-top: 30px;
+    display: block;
+    font-family: "Spectral", serif;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.header-card {
+    display: grid;
+    gap: 5px;
+    margin-top: 300px;
+}
+
+.header-card__item {
+    font-family: "Spectral", serif;
+    text-align: left;
+    font-size: 20px;
+
+    .header-card__item-link:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2.5px;
+
+        .header-card__item-child:after {
+            content: "→";
+            text-decoration: none;
+        }
+    }
+}
+
+.header-card__item-link {
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.header-card__item-text {
+    display: block;
+    margin-top: 15px;
+    transform: skewX(-10deg);
+    color: var(--title-color);
+    font-size: 13px;
+}
+
+.white__underline {
+    display: block;
+    margin-top: 13px;
+    border-top: 1px solid var(--text-color);
+    width: 70%;
+}
+
+@media (min-width: 600px) {
+    .header-card {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .header-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-card {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

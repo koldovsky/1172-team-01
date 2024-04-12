@@ -1,0 +1,54 @@
+.header__menu, .welcome-text {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header__main-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.header__menu-item {
+    position: relative;
+}
+
+.header__menu-link {
+    justify-content: space-around;
+    font-family: "Spectral", serif, bold;
+    color: rgb(162, 169, 173);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 2px 20px;
+    position: relative;
+}
+
+.header__menu-item:hover .header__menu-link {
+    color: white;
+}
+
+.header__menu-link::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s ease;
+}
+
+.header__menu-item:hover .header__menu-link::before {
+    width: 100%;
+}
