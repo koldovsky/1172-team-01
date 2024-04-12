@@ -54,7 +54,15 @@
 }
 
 @media (max-width: 900px) {
-    .header__menu-list {
+    .header__menu-item {
         display: none;
+    }
+
+    .header__main-logo {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 2%;
     }
 }
