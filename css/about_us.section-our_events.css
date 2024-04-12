@@ -1,3 +1,24 @@
+.events {
+  background-color: var( --background-color);
+  padding: 110px 100px;
+
+}
+.event{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+.event-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.event-section {
+display: flex;
+}
+.events-header {
+  text-align: center;
+}
 .events-header__title {
   font-family: "Spectral", serif;
   font-size: 12px;
@@ -15,12 +36,14 @@
   color: var(--text-color);
 }
 .event-details {
-  border-bottom: 1px solid #faf8f2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  
 }
 .event-details__title {
   font-family: "Cormorant Infant", serif;
   font-size: 28px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 .event-details__date,
 .event-details__time {
@@ -30,6 +53,7 @@
   font-weight: 300;
   color: var(--text-color);
 }
+
 .contact-icon__image {
   width: 26px;
   height: 26px;

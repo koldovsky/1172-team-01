@@ -7,13 +7,13 @@
   font-size: 52px;
   font-weight: 400;
   color: var(--text-button-color);
-  font-style: italic;
+ 
 
 }
-.contact__breadcrumb {
+.contact__breadcrumbs {
   font-size: 17px;
-  color: var(--text-button-color);
+  color: rgba(255,255,255,0.69);
 }
-.contact__breadcrumb--active{
-color: rgba(255,255,255,0.69);
+.contact__breadcrumb {
+  color: var(--text-button-color);
 }
