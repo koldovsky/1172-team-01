@@ -1,0 +1,96 @@
+.about-us-our-winery {
+  margin-top: 45px;
+  background-image: url("../img/img_about_us-our_winery/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 55% 91%;
+}
+.about-us-our-winery__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 0px 20px;
+  margin: auto;
+}
+@media (min-width: 767px) {
+  .about-us-our-winery__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 1170px;
+  }
+}
+.winery-features img {
+  max-height: 70px;
+}
+.winery-description__title {
+  font-family: Spectral, serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  line-height: 20.4px;
+  color: var(--title-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.winery-description__subtitle {
+  font-family: "Cormorant Infant", serif;
+  color: rgb(42, 40, 36);
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 57.2px;
+}
+.winery-description__subtitle span {
+  color: var(--title-color);
+}
+.winery-description__content,
+.winery-description__content__bold {
+  margin-top: 25px;
+  font-family: Spectral, serif;
+  color: var(--text-color);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.5px;
+}
+.winery-description__content__bold {
+  font-weight: 500;
+}
+.winery-features {
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.winery-features__card {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .winery-features {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.winery-features__title {
+  font-family: "Cormorant Infant", serif;
+  color: rgb(42, 40, 36);
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 28.8px;
+}
+.winery-features__description {
+  font-family: Spectral, serif;
+  color: var(--text-color);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+}
+.winery-features__title,
+.winery-features__description {
+  margin-top: 20px;
+}
