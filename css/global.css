@@ -10,20 +10,12 @@
 }
 
 :root {
-<<<<<<< HEAD
     scroll-behavior: smooth;
     --title-color:#bc6e44;
     --text-color:#837d71;
     --text-button-color:#fff;
     --background-color: #fcfaf6;
     font-family: "Spectral", serif;
-=======
-  --title-color: #bc6e44;
-  --text-color: #837d71;
-  --text-button-color: #fff;
-  font-family: "Spectral", serif;
-  scroll-behavior: smooth;
->>>>>>> f10a2703c8073ea8d5f23f3fc4838c75d4f46caf
 }
 
 img {
