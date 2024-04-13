@@ -1,3 +1,10 @@
+header {
+  background: linear-gradient(rgba(42, 40, 36, 0.85), rgba(42, 40, 36, 0.6)), url('../img/img_contact_us-header/grape-photo.jpeg');  
+  background-size: cover;
+  background-position: center;
+  min-height: 468px;
+}
+
 .contact {
   text-align: center;
   padding-top: 90px;
@@ -7,8 +14,6 @@
   font-size: 52px;
   font-weight: 400;
   color: var(--text-button-color);
- 
-
 }
 .contact__breadcrumbs {
   font-size: 17px;

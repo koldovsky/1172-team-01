@@ -4,9 +4,3 @@
 @import url(common.header-address.partial.css);
 @import url(common.header-menu.partial.css);
 @import url(contact_us.section-distribution.css);
-header {
-    background: linear-gradient(rgba(42, 40, 36, 0.85), rgba(42, 40, 36, 0.6)), url('../img/img_contact_us-header/grape-photo.jpeg');  
-    background-size: cover;
-    background-position: center;
-    min-height: 468px;
-}
