@@ -1,62 +1,48 @@
-.testimonials{
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 15px;
+  background-color: #f7f7f7;
 }
 
-.testimonials__title{
-    font-family: Cormorant Infant;
-    font-size: 36px;
-    color: #2a2824;
-    padding: auto;
-    text-align: center;
+.testimonials-block__title {
+  color: var(--title-color);
+  font-size: 12px;
+  letter-spacing: 2.4px;
 }
 
-.testimonials__text{
-    font-family: Cormorant Infant;
-    font-size: 40px;
-    text-align: center;
-    color: #2a2824;
+.testimonials-block__text {
+  font-size: 38px;
+  margin-bottom: 20px;
 }
 
-.testimonials__intro{
-    font-family: Cormorant Infant;
-    font-size: 36px;
-    color: #2a2824;
-    text-align: center;
+.testimonials-block__subtitle {
+    font-size: 19px;
+    color: var(--text-color);
 }
-
 
 .testimonial{
-    padding: 20px 20px 20px;
-    font-family: Cormorant Infant;
-    font-size: 36px;
-    color: #544e4c;
-    text-align: center;
-}
-
-.events{
-    padding: 20px 20px 20px;
-    font-family: Cormorant Infant;
-    font-size: 36px;
-    color: #544e4c;
-    text-align: center;
-}
-
-/* /five columns for events by using flexbox/ */
-.events {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+    min-height: 100%;
+}
+.testimonial__img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
 }
 
-.events__item{
-    width: 20%;
-    padding: 20px 20px 20px;
-    font-family: Cormorant Infant;
-    font-size: 36px;
-    color: #544e4c;
-    text-align: center;
-    height: 100%;
+.testimonial__comment{
+    font-size: 17px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    max-width: 700px;
 }
