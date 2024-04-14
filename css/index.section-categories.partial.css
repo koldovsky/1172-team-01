@@ -1,107 +1,116 @@
+:root {
+  --font-spectral: spectral;
+  --font-cormorant-infant: Cormorant Infant;
+  --color-primary: #2a2824;
+  --color-accent: #bc6e44;
+  --color-secondary: #837d71;
+  --color-tertiary: #544e4c;
+  --color-background: #ffffff;
+  --color-button-background: var(--color-accent);
+  --color-button-text: #ffffff;
+}
+
 .section-categories {
-    padding: 110px 0px 30px;
-    background-image: url(../img/img_section-categories/categories-wallper.png);
-    background-size: cover;
-    background-position: top;
+  padding: 110px 0 30px;
+  background-image: url(../img/img_section-categories/categories-wallper.png);
+  background-size: cover;
+  background-position: top;
 }
 
 .categories__content {
-    padding: 90px 0px 30px;
+  padding: 90px 0 30px;
 }
 
 .categories__text {
-    padding: 0px 24px;
+  padding: 0 24px;
 }
 
 .categories__title {
-
-    color: #bc6e44;
-    font: spectral;
-    font-size: inherit;
+  color: var(--color-accent);
+  font-family: var(--font-spectral);
+  font-size: inherit;
 }
 
 .categories__description {
-    display: flex;
-    justify-content: flex-start;
-    font-family: Cormorant Infant;
-    font-size: 52px;
-    color: #2a2824;
+  display: flex;
+  justify-content: flex-start;
+  font-family: var(--font-cormorant-infant);
+  font-size: 52px;
+  color: var(--color-primary);
 }
 
-.categories__action {
-    display: flex;
-    color: #837d71;
+.categories__action,
+.categories__action_list,
+.categories__link,
+.categories__additional-info {
+  display: flex;
+  color: var(--color-secondary);
+  font-family: var(--font-spectral);
 }
 
 .categories__action_list {
-    display: flex;
-    flex: 1;
-    flex-direction:row;
-    text-emphasis-color: #837d71;
-    color: #544e4c;
-    font-family: Cormorant Infant;
-    font-size: 36px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  text-emphasis-color: var(--color-secondary);
+  color: var(--color-tertiary);
+  font-family: var(--font-cormorant-infant);
+  font-size: 36px;
 }
 
 .categories__link {
-    display: flex;
-    flex: 1;
-    justify-content:space-evenly;
-    text-decoration: underline;
-    color: #2a2824;
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  text-decoration: underline;
+  color: var(--color-primary);
 }
 
 .categories__additional-info {
-    display: flex;
-    color: #837d71;
-    font-family: spectral;
-    font-size: 17px;
+  display: flex;
+  color: var(--color-secondary);
+  font-family: var(--font-spectral);
+  font-size: 17px;
 }
 
-
-
-
 .section-categories__items {
-    padding: 30px 0px 90px;
-    display: flex;
-    justify-content: space-around;
+  padding: 30px 0 90px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .section-categories__item {
-    background-color: white;
-    max-width: 20%;
-    max-height:20%;
-    padding: 20px 20px;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: space-between;
+  background-color: var(--color-background);
+  max-width: 20%;
+  max-height: 20%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
 }
 
 .section-categories__item-image {
-    max-width: 80px;
-    max-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
 }
 
 .section-categories__item-title {
-    
-    font-family: Cormorant Infant;
-    font-weight: 500;
-    font-size: 26px;
-    color: #2a2824;
+  font-family: var(--font-cormorant-infant);
+  font-weight: 500;
+  font-size: 26px;
+  color: var(--color-primary);
 }
 
 .section-categories__item-description {
-    
-    color: #837d71;
-    font-family: spectral;
+  color: var(--color-secondary);
+  font-family: var(--font-spectral);
 }
 
-.section-categories__item-button{
-    background-color: #bc6e44;
-    font: spectral;
-    font-size: 15px;
-    color: white;
-
+.section-categories__item-button {
+  background-color: var(--color-button-background);
+  font: var(--font-spectral);
+  font-size: 15px;
+  color: var(--color-button-text);
 }
+
