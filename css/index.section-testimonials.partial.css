@@ -55,6 +55,7 @@
 .testimonial__date {
   font-size: 12px;
   color: var(--data-color);
+  font-weight: 500;
 }
 
 .events {
