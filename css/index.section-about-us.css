@@ -1,0 +1,61 @@
+.section-about-us{
+    padding: 90px 0 30px;
+    box-sizing: border-box;
+    display: block;
+    min-width:  320px;
+}
+.section-about-us__container{
+padding: 0 24px 0;
+}
+.section-about-us__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.section-about-us__title{
+    color: var(--title-color);
+    font-family: Spectral, serif;
+    font-size: 12px;
+}
+.section-about-us__description {
+    display: block;
+    font-size: 38px;
+    font-family: "Cormorant Infant", serif;
+    color: #2a2824;
+}
+.section-about-us__text{
+    display: block;
+    color: var(--text-color);
+    font-family: Spectral, serif;
+    font-size: 17px;
+}
+.section-about-us__fact{
+    color: var(--title-color);
+    font-family: Spectral, serif;
+}
+.section-about-us__fact-label{
+    color: var(--text-color);
+    font-family: "Cormorant Infant", serif;
+}
+hr{
+    background-color: var(--text-color);
+    width: 30px;
+}
+.section-about-us__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-about-us__fact{
+    font-size: 33px;
+    font-weight: 500;
+}
+@media(min-width:768px){
+    .section-about-us__info{
+        flex-direction: row;
+    }
+    .section-about-us__content{
+        flex-direction: row;
+    }
+}
