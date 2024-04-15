@@ -81,15 +81,15 @@
   font-style: italic;
 }
 .image-container {
-max-width: 100%;
-  height: auto;
+  object-fit: cover;
 }
 @media (min-width: 768px) {
   .events {
     padding: 90px 30px;
   }
   .event{
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .event-left {
     display: grid;
