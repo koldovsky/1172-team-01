@@ -2,7 +2,8 @@
   overflow: hidden;
 }
 .benefits__container {
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 .benefits__image-src {
   width: 100%;
@@ -88,7 +89,7 @@
 
 @media (min-width: 768px) {
   .benefits__container {
-    display: flex;
+    flex-direction: row;
   }
   .benefits__image-src {
     object-position: 24.558% 0%;
