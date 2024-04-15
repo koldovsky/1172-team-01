@@ -1,56 +1,47 @@
-
-  .distribution {
-    background-image: url(../img/img_contact_us.section-destribution/background.svg);
-    background-size: cover;
-    padding: 110px 0;
-  }
-  .distribution__header {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .distribution__title {
-    font-size: 12px;
-    letter-spacing: 2.4px;
-    color: var(--title-color);
-  }
-  .distribution__subtitle {
-    font-family: "Cormorant Infant", serif;
-    font-size: 52px;
-    font-weight: 400;
-  }
-  .distribution__description {
-    font-size: 19px;
-    color: var(--text-color);
-  }
-  .distribution__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    padding: 0 100px;
-  }
-  .distribution__item {
-    width: 266px;
-    height: 195px;
-    padding: 30px;
-    border: 1px solid rgb(248, 244, 244);
-    text-align: center;
-  }
-  .distribution__item-title {
-    font-size: 19px;
-    font-weight: 400;
-    color: rgb(84, 78, 76);
-  }
-  .distribution__item-location {
-    font-size: 17px;
-    color: var(--title-color);
-    font-weight: 300;
-    font-style: italic;
-    margin: 20px 0;
-  }
-  .distribution__item-contact,
+ .distribution {
+  padding: 110px 0;
+}
+.distribution__header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.distribution__title {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  color: var(--title-color);
+}
+.distribution__subtitle {
+  font-family: "Cormorant Infant", serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+.distribution__description {
+  font-size: 19px;
+  color: var(--text-color);
+}
+.distribution__item {
+  height: 179px;
+  padding: 30px 0;
+  margin: 30px 24px;
+  border: 1px solid rgb(248, 244, 244);
+  text-align: center;
+}
+.distribution__item-title {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(84, 78, 76);
+}
+.distribution__item-location {
+  font-size: 17px;
+  color: var(--title-color);
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.distribution__item-contact,
   .distribution__item-email,
   .distribution__footer-text {
     font-size: 17px;
@@ -59,7 +50,7 @@
   }
   .distribution__footer {
     margin-top: 50px;
-    padding: 0 100px;
+    padding: 0 24px;
   }
   .distribution__footer-warning {
     font-size: 15px;
@@ -70,4 +61,38 @@
   }
   .distribution__footer-star {
     color: var(--title-color);
+  } 
+
+
+@media (min-width: 768px) {
+  .distribution__subtitle {
+      font-size: 45px;
+    }
+    .distribution__list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .distribution__item {
+      margin: 0;
+    }
   }
+@media (min-width: 992px) {
+.distribution__subtitle {
+    font-size: 52px;
+  }
+  .distribution__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 100px;
+  }
+  .distribution__item {
+    width: 266px;
+    height: 195px;
+  }
+  .distribution__footer {
+    margin-top: 50px;
+    padding: 0 100px;
+  }
+}
