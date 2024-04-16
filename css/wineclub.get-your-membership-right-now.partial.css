@@ -3,7 +3,8 @@
     min-height: 400px;
     height: 100vh;
     background-image: url(../img/background_get-your-membership-right-now.jpg);
-    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
     display:flex;
     justify-content: left;
     align-items: left;
@@ -20,17 +21,17 @@
     font-size: 12px;
     text-align: left;
     letter-spacing: 2.4px;
-    font-family: serif;
+    font-family: "Spectral" , serif;
     color:rgb(188, 110, 68);
 }
 .become-member__title{
     font-size: 52px;
-    font-family: serif;
+    font-family: "Spectral" , serif;
     text-align: left;
 }
 .become-member__text-block{
     font-size: 17px;
     color: rgb(131, 125, 113);
-    font-family: serif;
+    font-family: "Spectral" , serif;
     text-align: left;
 }
