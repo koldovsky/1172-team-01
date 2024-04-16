@@ -4,9 +4,35 @@
     letter-spacing: 2.4px;
     color: #bc6e44;
 }
-.out-team-content{
-    background-image: url(/img/img_about_us_our_team/`);
+.our_team{
+    background-image: url(/img/img_about_us_our_team/background.svg);
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+.our_team-content{
     display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+}
+.our_team-right{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.our_team-left{
+    max-width: 25%;
+}
+.our_team-left,img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 65.198% 50%;
+}
+.our_team-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .our_team-header-main_text{
     font-family: "Cormorant Infant", serif;
@@ -33,12 +59,12 @@
 .person_image{
     img{
         border-radius: 50%;
+        height: 70px;
+        width: 70px;
     }
     
-    height: 70px;
-    width: 70px;
+    
 }
-.john_smith_image  {
-    width: 20%;
-    height: auto;
+@media (max-width:780px) {
+
 }
