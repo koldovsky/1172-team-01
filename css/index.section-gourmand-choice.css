@@ -1,0 +1,57 @@
+.section-gourmand-choice{
+    padding: 30px 0 90px;
+}
+.section-gourmand-choice__container{
+    padding: 0 24px 0;
+}
+.section-gourmand-choice__title{
+    color: var(--title-color);
+    font-family: Spectral, serif;
+    font-size: 12px;
+}
+.section-gourmand-choice__description{
+    font-size: 38px;
+    font-family: "Cormorant Infant", serif;
+    color: #2a2824;
+}
+.section-gourmand-choice__text{
+    color: var(--text-color);
+    font-family: Spectral, serif;
+    font-size: 19px;
+}
+.section-gourmand-choice__roller-slide{
+    img{
+        width: 80%;
+        height: auto;
+    }
+
+}
+.section-gourmand-choice__roller-slide-title{
+    font-family: "Cormorant Infant", serif;
+    color: #2a2824;
+}
+.section-gourmand-choice__roller-slide-description{
+    color: var(--title-color);
+    font-family: Spectral, serif;
+}
+.section-gourmand-choice__arrow{
+    width: 12px;
+}
+.section-gourmand-choice__roller-button{
+    color: white;
+}
+.section-gourmand-choice__button{
+    background-color: var(--title-color);
+    border: 2px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    transition: inherit;
+}
+.section-gourmand-choice__roller-slides{
+    text-align: center;
+    img{
+        position:relative;
+    }
+}
+
