@@ -39,7 +39,8 @@
   font-family: "Cormorant Infant", serif;
   font-size: 28px;
   font-weight: 400;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .event-details__date,
 .event-details__time {
@@ -91,22 +92,35 @@
   }
   .event{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
   }
   .event-left {
     display: grid;
    grid-template-columns: 50% 50%;
+   padding-left: 100px;
+   align-items: center;
   }
   .event-second-column{
-    margin-right: 60px;
+    margin-right: 40px;
   }
   .events-header {
     text-align: center;
   }
+
   .events-header__description {
     font-size: 52px;
   }
   .image-container {
     margin-left: 50px;
+  }
+  .image-container-block{
+    aspect-ratio: 322/289;
+   margin-right: 38px;
+  }
+  .image-container__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   object-position: 70% 50%;
   }
 }
