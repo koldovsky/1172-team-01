@@ -4,6 +4,9 @@
     letter-spacing: 2.4px;
     color: #bc6e44;
 }
+.out-team-content{
+    display: flex;
+}
 .our_team-header-main_text{
     font-family: "Cormorant Infant", serif;
     font-size: 52px;
@@ -25,4 +28,16 @@
     font-family: "Cormorant Infant", serif;
     font-weight: 400;
     font-size: 25px;
+}
+.person_image{
+    img{
+        border-radius: 50%;
+    }
+    
+    height: 70px;
+    width: 70px;
+}
+.john_smith_image  {
+    width: 20%;
+    height: auto;
 }
