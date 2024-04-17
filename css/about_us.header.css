@@ -4,6 +4,11 @@
     background-position:bottom;
     min-height: 470px
 }
+.divider_component{
+    height: 1px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .main_text{
     display: flex;
     flex-direction: column;
