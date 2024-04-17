@@ -13,8 +13,9 @@
     background-color: white;
     padding: 31px;
     margin: 10% 10%;
+    height: fit-content;
     max-width: 400px;
-    max-height: 400px;
+    max-height: 450px;
     min-width: 220px;
 }
 .become-member__small--title{
@@ -24,14 +25,84 @@
     font-family: "Spectral" , serif;
     color:rgb(188, 110, 68);
 }
+
 .become-member__title{
-    font-size: 52px;
+    font-size: calc(38px + 14 * (100vw / 1920));
     font-family: "Spectral" , serif;
     text-align: left;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
+
 .become-member__text-block{
     font-size: 17px;
     color: rgb(131, 125, 113);
     font-family: "Spectral" , serif;
     text-align: left;
+}
+@media(max-width:500px) {
+    .become-member__title{
+        font-size: calc(38px + (14 + 14 *0.7)  * ((100vw - 340px) / 1920));
+    }
+}
+.get-your-membership-right-now__btn-group{
+    display: flex;
+}
+.get-your-membership-right-now__btn-group--btn-item{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(188, 110, 68);
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+    margin-left: 0px;
+    border: 1.6px solid rgb(188, 110, 68);
+    
+    font-size: 16.5px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease , color 0.3s ease;
+}
+.get-your-membership-right-now__btn-group--btn-item-about-us{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+    margin-left: 0px;
+    border: 1.6px solid rgb(188, 110, 68);
+    
+    font-size: 16.5px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(42, 40, 36);
+    transition: background-color 0.3s ease , color 0.3s ease;
+}
+.get-your-membership-right-now__btn-group--btn-item:hover{
+    
+    background-color: rgb(42, 40, 36);
+    color:white;
+    text-decoration: none;
+}
+.get-your-membership-right-now__btn-group--btn-item-about-us:hover{
+    
+    background-color: rgb(188, 110, 68);
+    color:white;
+    text-decoration: none;
+}
+.get-your-membership-right-now__btn-group--btn-item:active{
+    background-color: yellow;
+    text-decoration: none;
+}
+.get-your-membership-right-now__btn-group--btn-item:visited{
+    background-color: rgb(188, 110, 68);
+    text-decoration: none;
 }
