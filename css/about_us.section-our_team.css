@@ -6,6 +6,7 @@
 }
 .our_team{
     background-image: url(/img/img_about_us_our_team/background.svg);
+    /* background-position:; */
     padding-top: 110px;
     padding-bottom: 90px;
 }
@@ -13,7 +14,7 @@
     display: flex;
     flex-direction: row;
     gap: 60px;
-
+    margin: 100px 45px;
 }
 .our_team-right{
     display: flex;
