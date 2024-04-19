@@ -67,5 +67,19 @@
     
 }
 @media (max-width:780px) {
+    .our_team{
+        padding: 90px 70px;
+    }
+    .our_team-content{
+        display: flex;
+        flex-direction: column;
+      }
+      .our_team-right{
+        display: grid;
+        padding: 15px;
+      }
+      .our_team-left{
+        max-width: 100%;
+      }
 
 }
