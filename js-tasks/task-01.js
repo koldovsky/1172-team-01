@@ -4,6 +4,13 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 
+// Карандашов Артем
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  let totalGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals
+  return totalGoals;
+}
+
+
 // https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 // Капиця Іван (chat GPT)
 function makeNegative(number) {
@@ -13,10 +20,23 @@ function makeNegative(number) {
     return number;
   }
 }
+
+// Карандашов Артем
+function makeNegative(number) {
+  return -Math.abs(number);
+}
+
+
 // https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 // Капиця Іван
 function move(position, roll) {
   return position + roll * 2;
+}
+
+// Карандашов Артем
+function move(position, roll) {
+  let movedToRightPosition = position + roll * 2
+  return movedToRightPosition;
 }
 
 // https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
@@ -35,7 +55,23 @@ function greet(name, owner) {
     return "Привіт, гість";
   }
 }
+
+// Карандашов Артем робочий варіант
+function greet(name, owner) {
+  if (name == owner) {
+    return('Hello boss');
+  }
+  else return('Hello guest');
+}
+
+
 // https://www.codewars.com/kata/keep-hydrated-1/train/javascript
+
+// Карандашов Артем
+function litres(time) {
+  var litres = Math.floor(time / 2)
+  return litres;
+}
 
 // https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
 // Капиця Іван
@@ -48,3 +84,11 @@ function lovefunc(flower1, flower2) {
     return false;
   }
 }
+
+// Карандашов Артем
+function lovefunc(flower1, flower2){
+  if(flower1 % 2 != flower2 % 2)
+    return true
+  else return false
+}
+
