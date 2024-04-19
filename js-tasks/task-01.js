@@ -4,7 +4,7 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 
-
+// ------------ Всі запропонованні варіанти рішень:
 
 // Капиця Іван
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
@@ -28,7 +28,7 @@ function makeNegative(number) {
   return -Math.abs(number);
 }
 
-
+// ------------ Всі запропонованні варіанти рішень:
 
 // Капиця Іван (chat GPT)
 function makeNegative(number) {
@@ -55,6 +55,7 @@ function move(position, roll) {
   return position + roll * 2;
 }
 
+// ------------ Всі запропонованні варіанти рішень:
 
 // Капиця Іван
 function move(position, roll) {
@@ -78,7 +79,7 @@ function greet(name, owner) {
   return name == owner ? "Hello boss" : "Hello guest";
 }
 
-
+// ------------ Всі запропонованні варіанти рішень:
 
 // Капиця Іван 
 function greet(name, owner) {
@@ -105,7 +106,7 @@ function litres(time) {
   return Math.floor(0.5 * time);
 }
 
-
+// ------------ Всі запропонованні варіанти рішень:
 
 // Карандашов Артем
 function litres(time) {
@@ -124,7 +125,7 @@ function lovefunc(flower1, flower2) {
   return flower1 % 2 !== flower2 % 2 ? true : false;
 }
 
-
+// ------------ Всі запропонованні варіанти рішень:
 
 // Капиця Іван
 function lovefunc(flower1, flower2) {
