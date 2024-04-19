@@ -1,4 +1,11 @@
 // -------------------------------- https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript --------------------------------
+// Рішення:
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+
+
+
 // Капиця Іван
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
@@ -16,6 +23,13 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 }
 
 // ---------------------------------- https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript ------------------------------------
+// Рішення:
+function makeNegative(number) {
+  return -Math.abs(number);
+}
+
+
+
 // Капиця Іван (chat GPT)
 function makeNegative(number) {
   if (number > 0) {
@@ -36,6 +50,12 @@ function makeNegative(num) {
 }
 
 // -------------------------------- https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript ----------------------------
+// Рішення:
+function move(position, roll) {
+  return position + roll * 2;
+}
+
+
 // Капиця Іван
 function move(position, roll) {
   return position + roll * 2;
@@ -53,6 +73,13 @@ function move (position, roll) {
 }
 
 // -------------------------------- https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript ----------------
+// Рішення:
+function greet(name, owner) {
+  return name == owner ? "Hello boss" : "Hello guest";
+}
+
+
+
 // Капиця Іван 
 function greet(name, owner) {
   if (name === owner) {
@@ -73,6 +100,12 @@ function greet (name, owner) {
 }
 
 // -------------------------------- https://www.codewars.com/kata/keep-hydrated-1/train/javascript --------------------------------
+// Рішення:
+function litres(time) {
+  return Math.floor(0.5 * time);
+}
+
+
 
 // Карандашов Артем
 function litres(time) {
@@ -86,6 +119,13 @@ function litres(time) {
 }
 
 // -------------------------------- https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript  -------------------------------
+// Рішення:
+function lovefunc(flower1, flower2) {
+  return flower1 % 2 !== flower2 % 2 ? true : false;
+}
+
+
+
 // Капиця Іван
 function lovefunc(flower1, flower2) {
   if (
