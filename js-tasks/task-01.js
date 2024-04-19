@@ -52,20 +52,8 @@ function move (position, roll) {
   return position + roll * 2;
 }
 
-<<<<<<< HEAD
-// https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+// -------------------------------- https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript ----------------
 // Капиця Іван 
-=======
-// --------------------------------- https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript --------------------------------
-// Капиця Іван (ні один з цих варіантів код варс не зархував. 1-ий писав сам, 2-ий чат GPT)
-function greet(name, owner) {
-  if (name == owner) {
-    console.log("Привіт, бос");
-  }
-  console.log("Привіт гість");
-}
-// Другий варіант
->>>>>>> 28654d0cffa5151810bda921842f56e470381156
 function greet(name, owner) {
   if (name === owner) {
     return "Hello boss";
