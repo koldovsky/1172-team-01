@@ -99,14 +99,10 @@
     cursor: pointer;
 }
 .accordion_input{
-    appearance: none;
-    /* width: 0;
-    height: 0; */
+    /* appearance: none; */
+    
     position: absolute;
 }
-/* .accordion_input:checked + .accordion_text{
-    display: block;
-} */
-.john_smith_accordion:hover + .accordion_text{
+.accordion_input:checked + .accordion_text{
     display: block;
 }
