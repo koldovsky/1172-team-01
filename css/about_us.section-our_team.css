@@ -83,3 +83,30 @@
       }
 
 }
+.john_smith_accordion{
+    margin-top: 25px;
+    cursor: pointer;
+}
+.accordion_text{
+    margin-top: 25px;
+    color: #837d71;
+    display: none;
+}
+.accordion_tittle{
+    font-style: italic;
+    color: #594e4c;
+    font-weight: bold;
+    cursor: pointer;
+}
+.accordion_input{
+    appearance: none;
+    /* width: 0;
+    height: 0; */
+    position: absolute;
+}
+/* .accordion_input:checked + .accordion_text{
+    display: block;
+} */
+.john_smith_accordion:hover + .accordion_text{
+    display: block;
+}
