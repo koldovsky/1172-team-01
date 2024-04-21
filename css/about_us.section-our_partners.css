@@ -1,7 +1,9 @@
 .our_partners{
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
-    
+    background-image: url(/img/img_about_us_our_partners/background.png);
 }
 .our_partners_header-title {
     font-family: "Spectral", serif;
@@ -27,5 +29,21 @@
     font-size: 19px;
 }
 .block_of_image{
-    max-width: 50%;
+    max-width: 500px;
+    height: 100px;
+    background-color: rgba(143,142,140,0.1);
+    background-repeat: no-repeat;
+    margin: 25px;
+    align-content: center;
+}
+.image{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.image img{
+    max-width: 150px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
