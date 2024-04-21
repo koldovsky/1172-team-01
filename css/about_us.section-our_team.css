@@ -24,7 +24,7 @@
 .our_team-left{
     max-width: 25%;
 }
-.our_team-left,img{
+.our_team-left img{
     height: 100%;
     width: 100%;
     object-fit: cover;
