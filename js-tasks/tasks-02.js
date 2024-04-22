@@ -32,7 +32,7 @@
 
 
 // ------------ Всі запропонованні варіанти рішень:
-// Карандашов Артем
+// Карандашов Артем /
 function stringToArray(string){
   return string.split(" ");
 }
@@ -46,6 +46,8 @@ function stringToArray(string){
 function DNAtoRNA(dna) {
   return dna.replaceAll("T", "U");
 }
+// Капиця Іван
+const DNAtoRNA = (dna) => dna.replaceAll("T", "U");
 
 // -------------------------------- https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript --------------------------------
 // Рішення:
@@ -60,7 +62,9 @@ var min = function(list){
 var max = function(list){
   return Math.max.apply(null, list);
 }
-
+// Капиця Іван
+min = (list) => Math.min.apply(null,list);
+max = (list) => Math.max.apply(null,list);
 // -------------------------------- https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript --------------------------------
 // Рішення:
 
