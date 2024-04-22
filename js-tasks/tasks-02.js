@@ -82,7 +82,8 @@ function min(arr, toReturn) {
         return "Sometext"
   }
 }
-
+// Капиця Іван
+const min = (arr, toReturn) => toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
 // -------------------------------- https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript --------------------------------
 // Рішення:
 
@@ -131,7 +132,8 @@ function firstNonConsecutive (arr) {
 function doubleInteger(i) {
   return i*2;
 }
-
+// Капиця Іван
+const doubleInteger = i => i * 2;
 // -------------------------------- https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript --------------------------------
 // Рішення:
 
@@ -150,7 +152,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 function nthEven(n){
   return n * 2 - 2;
 }
-
+// Капиця Іван
+nthEven = (n) => n * 2 -2;
 // -------------------------------- https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript --------------------------------
 // Рішення:
 
