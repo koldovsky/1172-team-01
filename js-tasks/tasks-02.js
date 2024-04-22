@@ -57,6 +57,10 @@ function stringToArray(string) {
   return string.split(" ");
 }
 
+// Гриців Альбіна
+function splitStringIntoWords(str) {
+    return str.split(' ');
+}
 // -------------------------------- https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript --------------------------------
 // Рішення:
 
@@ -78,7 +82,11 @@ function DNAtoRNA(dna) {
 function DNAtoRNA(dna) {
   return dna.replaceAll("T", "U");
 }
+// Гриців Альбіна
+function DNAtoRNA(dna) {
+ return dna.replace( "T ", "U");
 
+}
 // -------------------------------- https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript --------------------------------
 // Рішення:
 
