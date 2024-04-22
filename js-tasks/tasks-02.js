@@ -36,6 +36,11 @@
 function stringToArray(string){
   return string.split(" ");
 }
+// Граматович Олександр
+function stringToArray(string){
+  list = string.split(" ")
+  return list
+}
 
 // -------------------------------- https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript --------------------------------
 // Рішення:
@@ -60,6 +65,22 @@ var min = function(list){
 var max = function(list){
   return Math.max.apply(null, list);
 }
+
+//Граматович Олександр
+function min(list){
+  list.sort(function sorting(a,b){
+    return a-b
+  })
+  return list[0]
+}
+
+function max(list){
+  list.sort(function sorting(a,b){
+    return b-a
+  })
+  return list[0]
+}
+
 
 // -------------------------------- https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript --------------------------------
 // Рішення:
