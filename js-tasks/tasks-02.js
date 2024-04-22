@@ -47,6 +47,11 @@ function stringToArray(string){
 // Капиця Іван
 stringToArray = (string) => string.split(" ");
 
+//Валько Владислава 
+function stringToArray(string){
+  return string.split(" ");
+}
+
 // -------------------------------- https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript --------------------------------
 // Рішення:
 
@@ -58,6 +63,11 @@ function DNAtoRNA(dna) {
 }
 // Капиця Іван
 const DNAtoRNA = (dna) => dna.replaceAll("T", "U");
+
+//Валько Владислава 
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, 'U');
+ }
 
 // -------------------------------- https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript --------------------------------
 // Рішення:
@@ -89,11 +99,18 @@ function max(list){
   return list[0]
 }
 
-
-
 // Капиця Іван
 min = (list) => Math.min.apply(null,list);
 max = (list) => Math.max.apply(null,list);
+
+
+//Валько Владислава
+function min (list) {
+  return Math.min(...list);
+}
+function max (list) {
+  return Math.max(...list);
+}
 
 // -------------------------------- https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript --------------------------------
 // Рішення:
@@ -114,6 +131,10 @@ function min(arr, toReturn) {
 }
 // Капиця Іван
 const min = (arr, toReturn) => toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
+
+//Валько Владислава
+function min(arr, toReturn) {
+  return toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));Ї
 // -------------------------------- https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript --------------------------------
 // Рішення:
 
@@ -125,6 +146,15 @@ function warnTheSheep(queue) {
   return `Oi! Sheep number ${queue.length - queue.indexOf("wolf") - 1}! You are about to be eaten by a wolf!`;
 }
 
+//Валько Владислава
+function warnTheSheep(queue) {
+  const message = (queue.pop() === 'wolf') ?
+      "Pls go away and stop eating my sheep" :
+      "Oi! Sheep number " + (queue.length - queue.indexOf('wolf')) +
+        "! You are about to be eaten by a wolf!";
+  return message;
+  }
+  
 
 // -------------------------------- https://www.codewars.com/kata/beginner-lost-without-a-map --------------------------------
 // Рішення:
@@ -136,6 +166,10 @@ function maps(x){
   return x.map( num => num * 2 );
 }
 
+//Валько Владислава
+function maps(x){
+  return x.map (x => x*2);
+  }
 
 // -------------------------------- https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript --------------------------------
 // Рішення:
