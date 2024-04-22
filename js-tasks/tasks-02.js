@@ -36,7 +36,8 @@
 function stringToArray(string){
   return string.split(" ");
 }
-
+// Капиця Іван
+stringToArray = (string) => string.split(" ");
 // -------------------------------- https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript --------------------------------
 // Рішення:
 
