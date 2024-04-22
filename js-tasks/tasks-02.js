@@ -350,3 +350,41 @@ function isDivisible(n, x, y) {
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
+
+// -------------------------------- Гудз Михайло--------------------------------
+//Convert a string to an array
+function stringToArray(string){
+  return string.split(" ")
+}
+//DNA to RNA Conversion
+function DNAtoRNA(dna) {
+  return dna.replaceAll("T"  , "U");
+}
+//Find Maximum and Minimum Values of a List
+const min = list => Math.min(...list);
+const max = list => Math.max(...list);
+//Smallest value of an array
+function min(arr, toReturn) {
+  return toReturn === 'value' ? Math.min(...arr): arr.indexOf(Math.min(...arr));
+}
+//A wolf in sheep's clothing
+function warnTheSheep(queue) {
+  const windex = queue.length - queue.indexOf("wolf")-1;
+  return windex === 0 ? 'Pls go away and stop eating my sheep':`Oi! Sheep number ${windex}! You are about to be eaten by a wolf!`;
+}
+//Beginner - Lost Without a Map
+const maps = x => x.map((xv)=>xv*2)
+//Find the first non-consecutive number
+function firstNonConsecutive (arr) {
+  for(let i = 0 ;i < arr.length - 1;i++)  if(arr[i] !== arr[i+1] - 1) return arr[i+1];
+  return null;
+}
+//You Can't Code Under Pressure #1
+doubleInteger = i => i<<1;
+//Twice as old
+twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYearsOld - sonYearsOld *2);
+//Beginner Series #2 Clock
+past = (h, m, s) => 3600000 * h + 60000 * m + 1000 * s;
+//Is n divisible by x and y?
+isDivisible = (n, x, y) => n%x === 0 && n%y === 0;
+// -------------------------------- зверху Гудз Михайло --------------------------------
