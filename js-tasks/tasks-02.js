@@ -32,15 +32,20 @@
 
 
 // ------------ Всі запропонованні варіанти рішень:
-// Карандашов Артем
+// Карандашов Артем /
 function stringToArray(string){
   return string.split(" ");
 }
+
 // Граматович Олександр
 function stringToArray(string){
   list = string.split(" ")
   return list
 }
+
+
+// Капиця Іван
+stringToArray = (string) => string.split(" ");
 
 // -------------------------------- https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript --------------------------------
 // Рішення:
@@ -51,6 +56,8 @@ function stringToArray(string){
 function DNAtoRNA(dna) {
   return dna.replaceAll("T", "U");
 }
+// Капиця Іван
+const DNAtoRNA = (dna) => dna.replaceAll("T", "U");
 
 // -------------------------------- https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript --------------------------------
 // Рішення:
@@ -65,6 +72,7 @@ var min = function(list){
 var max = function(list){
   return Math.max.apply(null, list);
 }
+
 
 //Граматович Олександр
 function min(list){
@@ -81,6 +89,11 @@ function max(list){
   return list[0]
 }
 
+
+
+// Капиця Іван
+min = (list) => Math.min.apply(null,list);
+max = (list) => Math.max.apply(null,list);
 
 // -------------------------------- https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript --------------------------------
 // Рішення:
@@ -99,7 +112,8 @@ function min(arr, toReturn) {
         return "Sometext"
   }
 }
-
+// Капиця Іван
+const min = (arr, toReturn) => toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
 // -------------------------------- https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript --------------------------------
 // Рішення:
 
@@ -148,7 +162,8 @@ function firstNonConsecutive (arr) {
 function doubleInteger(i) {
   return i*2;
 }
-
+// Капиця Іван
+const doubleInteger = i => i * 2;
 // -------------------------------- https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript --------------------------------
 // Рішення:
 
@@ -167,7 +182,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 function nthEven(n){
   return n * 2 - 2;
 }
-
+// Капиця Іван
+nthEven = (n) => n * 2 -2;
 // -------------------------------- https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript --------------------------------
 // Рішення:
 
