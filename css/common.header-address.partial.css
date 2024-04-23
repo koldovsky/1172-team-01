@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: black;
+    background-color: var(--background-color-header-address);
     min-height: 52px;
     opacity: 0.5;
 }
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--text-button-color);
     width: 33.3333%;
     text-align: center;
 }
@@ -30,7 +30,7 @@
 }
 
 .address__visit {
-    color: white;
+    color: var(--text-button-color);
     font-weight: bold;
     padding-right: 3px;
 }

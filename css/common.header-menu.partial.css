@@ -1,3 +1,12 @@
+.header {
+    background-image: linear-gradient(rgba(42, 40, 36, 0.85), rgba(42, 40, 36, 0.6)), url('../img/header.menu/header-cover.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 1100px;
+    max-width: 100%;
+    color: var(--text-color);
+  }
+
 .header__menu, .welcome-text {
     max-width: 1200px;
     margin: auto;
@@ -11,7 +20,6 @@
 .header__menu {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
 }
 
 .header__menu-list {
@@ -35,7 +43,7 @@
 }
 
 .header__menu-item:hover .header__menu-link {
-    color: white;
+    color: var(--text-button-color);
 }
 
 .header__menu-link::before {
@@ -45,7 +53,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: white;
+    background-color: var(--text-button-color);
     transition: width 0.5s ease;
 }
 
