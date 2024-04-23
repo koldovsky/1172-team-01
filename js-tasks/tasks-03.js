@@ -13,3 +13,20 @@ You can assume, for the purpose of this kata, that the supplied array will not b
     if num < smallest:
       smallest = num;
   return smallest;
+
+In lesson #11, we learned that the for loop can be used to traverse an array. If we want to traverse an object, we can use a variant of the for: for..in. This can traverse all the keys of the object. An example:
+function showObjectKeys(obj){
+  for (let key in obj){
+    console.log(key);
+  }
+}
+function showObjectValues(obj){
+  for (let key in obj){
+    console.log(obj[key]);
+  }
+}
+let arr=["one","two","three"];
+console.log("keys of arr:")
+showObjectKeys(arr);
+console.log("values of arr:")
+showObjectValues(arr);
