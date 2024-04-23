@@ -3,6 +3,7 @@
     justify-content: space-between;
     width: 100%;
     background-color: var(--background-color-header-address);
+    font-style: italic;
     min-height: 52px;
     opacity: 0.5;
 }
@@ -27,6 +28,7 @@
 .address__number:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
+    color: var(--text-color);
 }
 
 .address__visit {
