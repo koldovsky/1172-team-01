@@ -33,9 +33,6 @@
 
 // -------------------------------- https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript --------------------------------
 // Рішення:
-
-// Всі запропонованні рішення:
-// Карандашов Артем
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     return Math.min(...args);
@@ -44,23 +41,13 @@ class SmallestIntegerFinder {
 
 // -------------------------------- https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript --------------------------------
 // Рішення:
-
-// Всі запропонованні рішення:
-// Карандашов Артем
 function circleCircumference(circle) {
   return 2 * Math.PI * circle.radius;
 }
 
-// Albina Hrytsiv
-function circleCircumference(circle) {
-return 2 * Math.PI * circle.radius;
-}
 
 // -------------------------------- https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript --------------------------------
 // Рішення:
-
-// Всі запропонованні рішення:
-// Карандашов Артем
 function giveMeFive(obj) {
   const arr = [];
   for (let key in obj) {
@@ -69,38 +56,19 @@ function giveMeFive(obj) {
   }
   return arr;
 }
-//Albina Hrytsiv
-function giveMeFive(obj) {
-  let resultArray = [];
-  for (let key in obj) {
-    if (key.length === 5) {
-      resultArray.push(key);
-    }
-    if (obj[key].toString().length === 5) {
-      resultArray.push(obj[key]);
-    }
-  }
-  return resultArray;
-}
+
 
 // -------------------------------- https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript --------------------------------
 // Рішення:
-
-// Всі запропонованні рішення:
-// Карандашов Артем
 function buildFun(n) {
   const res = [];
-  for (let i = 0; i < n; i++) {
-    res.push(() => i);
-  }
+  for (let i = 0; i < n; i++) res.push(() => i);
   return res;
 }
 
+
 // -------------------------------- https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript --------------------------------
 // Рішення:
-
-// Всі запропонованні рішення:
-// Карандашов Артем
 class Shark extends Animal {
   constructor(name, age, status) {
     super(name, age, 0, "shark", status);
