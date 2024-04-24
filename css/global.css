@@ -19,6 +19,7 @@
     --background-color: #fcfaf6;
     --description-text-color: #2a2824;
     --background-color-header-address: black;
+    --footer-text-color: rgba(255, 255, 255, 0.69);
     font-family: "Spectral", serif;
 }
 
