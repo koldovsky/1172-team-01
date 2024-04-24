@@ -51,6 +51,11 @@ function circleCircumference(circle) {
   return 2 * Math.PI * circle.radius;
 }
 
+// Albina Hrytsiv
+function circleCircumference(circle) {
+return 2 * Math.PI * circle.radius;
+}
+
 // -------------------------------- https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript --------------------------------
 // Рішення:
 
@@ -63,6 +68,19 @@ function giveMeFive(obj) {
     if (obj[key].length === 5) arr.push(obj[key]);
   }
   return arr;
+}
+//Albina Hrytsiv
+function giveMeFive(obj) {
+  let resultArray = [];
+  for (let key in obj) {
+    if (key.length === 5) {
+      resultArray.push(key);
+    }
+    if (obj[key].toString().length === 5) {
+      resultArray.push(obj[key]);
+    }
+  }
+  return resultArray;
 }
 
 // -------------------------------- https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript --------------------------------
