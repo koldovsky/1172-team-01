@@ -1,8 +1,6 @@
 .vineyards__container {
   display: flex;
   flex-direction: column;
-  max-width: fit-content;
-  margin: auto;
   margin-bottom: -90px;
 }
 .vineyards__content {
