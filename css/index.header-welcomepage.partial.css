@@ -49,9 +49,6 @@
         width: 100%;
     }
 
-    .header-card__item-right-arrow {
-        color: var(--text-button-color);
-    }
 }
 
 .header-card__item-link {
@@ -76,19 +73,7 @@
     width: 70%;
 }
 
-@media (min-width: 600px) {
-    .header-card {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 @media (min-width: 900px) {
-    .header-card {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (min-width: 1200px) {
     .header-card {
         grid-template-columns: repeat(4, 1fr);
     }
