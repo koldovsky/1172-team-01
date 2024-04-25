@@ -6,6 +6,7 @@
 }
 .our_team{
     background-image: url(/img/img_about_us_our_team/background.svg);
+    /* background-position:; */
     padding-top: 110px;
     padding-bottom: 90px;
 }
@@ -13,7 +14,7 @@
     display: flex;
     flex-direction: row;
     gap: 60px;
-
+    margin: 100px 45px;
 }
 .our_team-right{
     display: flex;
@@ -23,7 +24,7 @@
 .our_team-left{
     max-width: 25%;
 }
-.our_team-left,img{
+.our_team-left img{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -33,6 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .our_team-header-main_text{
     font-family: "Cormorant Infant", serif;
@@ -66,5 +68,44 @@
     
 }
 @media (max-width:780px) {
+    
+    .our_team{
+        padding: 90px 70px;
+    }
+    .our_team-content{
+        display: flex;
+        flex-direction: column;
+      }
+      .our_team-right{
+        display: grid;
+        padding: 15px;
+      }
+      .our_team-left{
+        max-width: 100%;
+      }
 
+
+}
+.john_smith_accordion{
+    margin-top: 25px;
+    cursor: pointer;
+}
+.accordion_text{
+    margin-top: 25px;
+    color: #837d71;
+    display: none;
+}
+.accordion_tittle{
+    font-style: italic;
+    color: #594e4c;
+    font-weight: bold;
+    cursor: pointer;
+}
+.accordion_input{
+    /* appearance: none; */
+    
+    position: absolute;
+}
+.accordion_input:checked + .accordion_text{
+    display: block;
 }

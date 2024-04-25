@@ -1,0 +1,30 @@
+.footer {
+  background: var(--description-text-color);
+  color: var(--footer-text-color);
+}
+
+.footer__logo {
+  width: 85px;
+}
+.footer__contact-data a {
+  font-style: italic;
+  color: var(--text-button-color);
+  text-decoration: none;
+}
+.footer__nav ul {
+  list-style-type: none;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer__contact-data,
+.footer__nav a:hover {
+  text-decoration: underline;
+}
+.footer__nav a {
+  color: var(--footer-text-color);
+  text-decoration: none;
+}

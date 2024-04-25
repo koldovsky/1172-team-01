@@ -1,8 +1,9 @@
 .address {
-    display: flex;
+    display: none;
     justify-content: space-between;
     width: 100%;
-    background-color: black;
+    background-color: var(--background-color-header-address);
+    font-style: italic;
     min-height: 52px;
     opacity: 0.5;
 }
@@ -12,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--text-button-color);
     width: 33.3333%;
     text-align: center;
 }
@@ -27,16 +28,17 @@
 .address__number:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
+    color: var(--text-color);
 }
 
 .address__visit {
-    color: white;
+    color: var(--text-button-color);
     font-weight: bold;
     padding-right: 3px;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 901px) {
     .address {
-        display: none;
+        display: flex;
     }
 }
