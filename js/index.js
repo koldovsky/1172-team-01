@@ -1,5 +1,6 @@
 function init() {
     import('./index.testimonials.js');
+    import('./index.section-benefits.partial.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
