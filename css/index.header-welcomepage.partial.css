@@ -56,7 +56,6 @@
         text-decoration: underline;
         text-decoration-thickness: 2.5px;
         color: var(--text-button-color);
-        font-size: 32px;
     }
 
     .header-card__item-right-arrow {
