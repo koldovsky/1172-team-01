@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: -90px;
+  padding: 0;
 }
 .vineyards__content {
   display: flex;
@@ -26,6 +27,7 @@
   font-family: "Cormorant Infant", serif;
   line-height: 41.8px;
   margin-top: 20px;
+  line-height: 1.5;
 }
 
 .vineyards__text,
@@ -72,13 +74,25 @@
   .vineyards__container {
     flex-direction: row;
   }
-  .vineyards__description {
+  .vineyards__description,
+  .vineyards__description em {
     font-size: 45px;
   }
   .vineyards__content {
     padding: 110px 45px 90px 45px;
+    flex-basis: 50%;
   }
   .vineyards__image {
     object-position: 63.16% 33.128%;
+  }
+  .vineyards__image-container {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 991px) {
+  .vineyards__description,
+  .vineyards__description em {
+    font-size: 52px;
   }
 }
