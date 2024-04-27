@@ -8,6 +8,10 @@
   margin-top: 30px;
 }
 
+.carousel-item{
+  height: 410px;
+}
+
 .testimonials-block__title {
   color: var(--title-color);
   font-size: 12px;
@@ -94,6 +98,10 @@
     margin-top: 60px;
   }
 
+  .carousel-item{
+    height: 420px;
+  }
+
   .testimonials-block__text {
     font-size: 42px;
   }
@@ -144,6 +152,10 @@
   .testimonials {
     padding: 20px 15px;
     margin-top: 90px;
+  }
+
+  .carousel-item{
+    height: 510px;
   }
 
   .testimonials-block__text {

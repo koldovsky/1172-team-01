@@ -1,0 +1,25 @@
+header {
+    background: linear-gradient(rgba(42, 40, 36, 0.85), rgba(42, 40, 36, 0.6)), url('../img/img_collection/collection-header.jpeg');  
+    background-size: cover;
+    background-position: center;
+    min-height: 468px;
+  }
+  
+  .contact {
+    text-align: center;
+    padding-top: 90px;
+  }
+  .contact__title {
+    font-family: "Cormorant Infant", serif;
+    font-size: 52px;
+    font-weight: 400;
+    color: var(--text-button-color);
+  }
+  .contact__breadcrumbs {
+    font-size: 17px;
+    color: rgba(255,255,255,0.69);
+  }
+  .contact__breadcrumb {
+    color: var(--text-button-color);
+  }
+  

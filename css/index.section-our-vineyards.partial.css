@@ -1,6 +1,15 @@
-.vineyards {
-  padding: 90px 30px;
-  padding-bottom: 0px;
+.vineyards__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -90px;
+  padding: 0;
+}
+.vineyards__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  padding: 90px 30px 70px;
 }
 .vineyards__title {
   color: var(--title-color);
@@ -10,7 +19,8 @@
   font-family: "Spectral", serif;
 }
 
-.vineyards__description {
+.vineyards__description,
+.vineyards__description em {
   color: var(--description-text-color);
   font-size: 38px;
   font-weight: 500;
@@ -53,17 +63,37 @@
   font-family: "Spectral", serif;
   color: var(--text-color);
 }
-.vineyards__image-container {
-  padding-top: 90px;
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+.vineyards__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 @media (min-width: 768px) {
-  .vineyards__description {
+  .vineyards__container {
+    flex-direction: row;
+  }
+  .vineyards__description,
+  .vineyards__description em {
     font-size: 45px;
+    line-height: 49.5px;
+  }
+  .vineyards__content {
+    padding: 110px 45px 90px 45px;
+    flex-basis: 50%;
+  }
+  .vineyards__image {
+    object-position: 63.16% 33.128%;
+  }
+  .vineyards__image-container {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .vineyards__description,
+  .vineyards__description em {
+    font-size: 52px;
+    line-height: 57.2px;
   }
 }

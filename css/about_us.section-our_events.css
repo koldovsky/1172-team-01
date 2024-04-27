@@ -74,6 +74,10 @@
   font-family: "Spectral", serif;
   font-size: 17px;
   color: var(--text-color);
+  text-decoration: none;
+}
+.contact-details__info:hover {
+  text-decoration: underline;
 }
 .distribution__footer-warning {
   font-family: "Spectral", serif;

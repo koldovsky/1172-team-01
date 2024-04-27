@@ -1,7 +1,10 @@
 .our_partners{
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
-    
+    background-image: url(img/img_about_us_our_partners/background.png);
+    padding:100px 50px;
 }
 .our_partners_header-title {
     font-family: "Spectral", serif;
@@ -21,11 +24,41 @@
     color: #bc6e44
 }
 
-.our_partners-header-description {
+.our_partners-description {
     color: #837d71;
     font-family: "Spectral", serif;
     font-size: 19px;
 }
 .block_of_image{
-    max-width: 50%;
+    max-width: 500px;
+    height: 100px;
+    background-color: rgba(143,142,140,0.1);
+    background-repeat: no-repeat;
+    margin: 20px;
+    align-content: center;
+}
+.image{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.image img{
+    max-width: 150px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:780px) {
+    .images_container{
+        display: flex;
+        
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.high{
+    font-weight: 500;
 }
