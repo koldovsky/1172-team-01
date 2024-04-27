@@ -2,34 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10"
-        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-        crossorigin="anonymous"></script>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACTS</title>
+    <link rel="stylesheet" href="css/collection.css" />
+    <link
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
 <body>
     <header>
-        <address class="header__address" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-address.partial.html">
+        <address
+          class="header__address"
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="collection-header.partial.html">
         </address>
-
-        <nav class="header__menu" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.header-menu.partial.html"></nav>
     </header>
-
-
     <main>
-        <section class="head-collection">
-            <div>
-                <h1>Our Collection</h1>
-                <p>Home ></p>
-                <a href="#">Our collection</a>
-            </div>
-        </section>
-        
         <section class="wine-content">
             <div class="white-wine">
                 <div class="wine-category" id="white-wine">
