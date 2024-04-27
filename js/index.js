@@ -1,5 +1,6 @@
 function init() {
     import('./common.header-menu.partial.js');
+    import('./common.header-clock.js');
     import('./index.testimonials.js');
     import('./index.section-benefits.partial.js');
 }
