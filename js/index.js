@@ -11,9 +11,3 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
     loadedPartialsCount++;
     if (loadedPartialsCount === totalPartials) init();
 });
-
-function showMessage() {
-    alert('T E S T !');
-  }
-
-  window.onload = showMessage;
