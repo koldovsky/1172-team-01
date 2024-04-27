@@ -5,6 +5,7 @@
   background-image: url(../img/background_get-your-membership-right-now.jpg);
   background-attachment: fixed;
   background-size: cover;
+  background-position: right;
   display: flex;
   justify-content: left;
   align-items: left;
@@ -23,7 +24,7 @@
   text-align: left;
   letter-spacing: 2.4px;
   font-family: "Spectral", serif;
-  color: rgb(188, 110, 68);
+  color: var(--title-color);
 }
 
 .become-member__title {
@@ -36,7 +37,7 @@
 
 .become-member__text-block {
   font-size: 17px;
-  color: rgb(131, 125, 113);
+  color: var(--text-color);
   font-family: "Spectral", serif;
   text-align: left;
 }
@@ -52,14 +53,14 @@
   display: block;
   width: fit-content;
   height: fit-content;
-  background-color: rgb(188, 110, 68);
+  background-color: var(--title-color);
   text-align: center;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
   margin: 15px;
   margin-left: 0px;
-  border: 1.6px solid rgb(188, 110, 68);
+  border: 1.6px solid var(--title-color);
 
   font-size: 16.5px;
   font-weight: 700;
@@ -78,21 +79,21 @@
   padding-right: 30px;
   margin: 15px;
   margin-left: 0px;
-  border: 1.6px solid rgb(188, 110, 68);
+  border: 1.6px solid var(--title-color);
 
   font-size: 16.5px;
   font-weight: 700;
   text-decoration: none;
-  color: rgb(42, 40, 36);
+  color: var(--description-text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .get-your-membership-right-now__btn-group--btn-item:hover {
-  background-color: rgb(42, 40, 36);
+  background-color: var(--description-text-color);
   color: white;
   text-decoration: none;
 }
 .get-your-membership-right-now__btn-group--btn-item-about-us:hover {
-  background-color: rgb(188, 110, 68);
+  background-color: var(--title-color);
   color: white;
   text-decoration: none;
 }
@@ -100,6 +101,6 @@
   text-decoration: none;
 }
 .get-your-membership-right-now__btn-group--btn-item:visited {
-  background-color: rgb(188, 110, 68);
+  background-color: var(--title-color);
   text-decoration: none;
 }

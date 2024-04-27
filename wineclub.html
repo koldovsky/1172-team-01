@@ -18,20 +18,23 @@
   </head>
 
   <body>
-    <header>
+    <header class = "wineclub__header">
       <address
         class="header__address"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="common.header-address.partial.html"
       ></address>
-
       <nav
         class="header__menu"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="common.header-menu.partial.html"
       ></nav>
+      <div class = "wineclub__welcome-text-container">
+        <h2 class = "wineclub__welcome-text-wine">Wine Club</h2>
+        <span class = "wineclub__welcome-text-path">Home > <u>Wine Club</u></span>
+      </div>
     </header>
 
     <main>

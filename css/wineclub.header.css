@@ -1,0 +1,45 @@
+.wineclub__header {
+  background-image: linear-gradient(
+      rgba(42, 40, 36, 0.85),
+      rgba(42, 40, 36, 0.6)
+    ),
+    url("../img/img_wineclub_section/wineclub__header.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flexbox;
+  min-height: 600px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+}
+.wineclub__welcome-text-container {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wineclub__welcome-text-wine {
+  width: 100%;
+  font-size: 52px;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  color: var(--wineclub-header-text-color);
+}
+.wineclub__welcome-text-path {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--wineclub-header-nav-text-color);
+}
+.wineclub__welcome-text-path u {
+  color: var(--wineclub-header-text-color);
+}
+@media (min-width: 901px) {
+  .wineclub__welcome-text-wine,
+  .wineclub__welcome-text-path {
+    padding-left: 60px;
+  }
+}

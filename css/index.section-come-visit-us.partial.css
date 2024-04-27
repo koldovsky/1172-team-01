@@ -1,5 +1,4 @@
 .come-visit-us {
-  background-color: brown;
   min-height: 400px;
   height: 100vh;
   background-image: url(../img/background_come-visit-us.jpg);
@@ -23,7 +22,7 @@
   text-align: left;
   letter-spacing: 2.4px;
   font-family: "Spectral", serif;
-  color: rgb(188, 110, 68);
+  color: var(--title-color);
 }
 .wine-tastings__title {
   font-size: 52px;
@@ -32,7 +31,7 @@
 }
 .wine-tastings__text-block {
   font-size: 17px;
-  color: rgb(131, 125, 113);
+  color: var(--text-color);
   font-family: "Spectral", serif;
   text-align: left;
 }
