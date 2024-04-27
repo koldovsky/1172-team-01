@@ -27,7 +27,6 @@
   font-family: "Cormorant Infant", serif;
   line-height: 41.8px;
   margin-top: 20px;
-  line-height: 1.5;
 }
 
 .vineyards__text,
@@ -77,6 +76,7 @@
   .vineyards__description,
   .vineyards__description em {
     font-size: 45px;
+    line-height: 49.5px;
   }
   .vineyards__content {
     padding: 110px 45px 90px 45px;
@@ -90,9 +90,10 @@
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   .vineyards__description,
   .vineyards__description em {
     font-size: 52px;
+    line-height: 57.2px;
   }
 }
