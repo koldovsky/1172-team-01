@@ -13,151 +13,177 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <div class="testimonials">
-      <div class="testimonials-block">
-        <h2 class="testimonials-block__title">~ Testimonials ~</h2>
-        <p class="testimonials-block__text">Our Lovely Clients About Us.</p>
-        <p class="testimonials-block__subtitle">
-          Read the testimonials of our customers to find out why so many people
-          visit us.
-        </p>
+    <div class="container-testimonials">
+      <div class="testimonials">
+        <div class="testimonials-block">
+          <h2 class="testimonials-block__title">~ Testimonials ~</h2>
+          <p class="testimonials-block__text">Our Lovely Clients About Us.</p>
+          <p class="testimonials-block__subtitle">
+            Read the testimonials of our customers to find out why so many
+            people visit us.
+          </p>
+        </div>
+
+        <!-- Testimonial carousel -->
+        <div
+          id="testimonial-carousel"
+          class="carousel slide testimonial-carousel"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel__testimonial testimonial">
+                <div>
+                  <img
+                    class="testimonial__img"
+                    src="img/img_section_testimonials/alice.png"
+                    alt=""
+                  />
+                </div>
+                <p class="testimonial__customer">Alice Jackson</p>
+                <p class="testimonial__comment">
+                  "The scenery was beautiful and it was the perfect way to spend
+                  an afternoon. I would highly recommend visiting this winery!"
+                </p>
+                <p class="testimonial__date">MARCH 25, 2023</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__testimonial testimonial">
+                <div>
+                  <img
+                    class="testimonial__img"
+                    src="img/img_section_testimonials/amanda.png"
+                    alt=""
+                  />
+                </div>
+                <p class="testimonial__customer">Amanda Willson</p>
+                <p class="testimonial__comment">
+                  "I'm so happy for the opening of the Pinot Noir Winery. They
+                  have a tremendous collection of the finest wines. We had a
+                  really great time there and will definitely come back soon."
+                </p>
+                <p class="testimonial__date">DECEMBER 15, 2022</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__testimonial testimonial">
+                <div>
+                  <img
+                    class="testimonial__img"
+                    src="img/img_section_testimonials/will.png"
+                    alt=""
+                  />
+                </div>
+                <p class="testimonial__customer">Will Smith</p>
+                <p class="testimonial__comment">
+                  "Visiting the winery was an amazing experience! The staff were
+                  so friendly and knowledgeable and the wine was delicious. I've
+                  already recommended Pinot Noir to my friends."
+                </p>
+                <p class="testimonial__date">JANUARY 04, 2023</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonial-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonial-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
 
-      <!-- Testimonial carousel -->
-      <div
-        id="testimonial-carousel"
-        class="carousel slide testimonial-carousel"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#testimonial-carousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#testimonial-carousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#testimonial-carousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="carousel__testimonial testimonial">
-              <div>
-                <img
-                  class="testimonial__img"
-                  src="img/img_section_testimonials/alice.png"
-                  alt=""
-                />
-              </div>
-              <p class="testimonial__customer">Alice Jackson</p>
-              <p class="testimonial__comment">
-                "The scenery was beautiful and it was the perfect way to spend
-                an afternoon. I would highly recommend visiting this winery!"
-              </p>
-              <p class="testimonial__date">MARCH 25, 2023</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel__testimonial testimonial">
-              <div>
-                <img
-                  class="testimonial__img"
-                  src="img/img_section_testimonials/amanda.png"
-                  alt=""
-                />
-              </div>
-              <p class="testimonial__customer">Amanda Willson</p>
-              <p class="testimonial__comment">
-                "I'm so happy for the opening of the Pinot Noir Winery. They
-                have a tremendous collection of the finest wines. We had a
-                really great time there and will definitely come back soon."
-              </p>
-              <p class="testimonial__date">DECEMBER 15, 2022</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel__testimonial testimonial">
-              <div>
-                <img
-                  class="testimonial__img"
-                  src="img/img_section_testimonials/will.png"
-                  alt=""
-                />
-              </div>
-              <p class="testimonial__customer">Will Smith</p>
-              <p class="testimonial__comment">
-                "Visiting the winery was an amazing experience! The staff were
-                so friendly and knowledgeable and the wine was delicious. I've
-                already recommended Pinot Noir to my friends."
-              </p>
-              <p class="testimonial__date">JANUARY 04, 2023</p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#testimonial-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#testimonial-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+      <div class="testimonials-divider"></div>
 
-    <!-- Out events  -->
-    <div class="events">
-      <div class="container">
-        <div class="events__row">
-          <div class="events__item">
-            <img class="events__item--img" src="img/img_section_testimonials/events_1.jfif" alt="" />
-            <p class="events__item--text">
-              <strong>•</strong> Wine Tasting 2021
-            </p>
-          </div>
-          <div class="events__item">
-            <img class="events__item--img" src="img/img_section_testimonials/events_2.jfif" alt="" />
-            <p class="events__item--text">
-              <strong>•</strong> The Best Vineyard 2022
-            </p>
-          </div>
-          <div class="events__item">
-            <img class="events__item--img" src="img/img_section_testimonials/events_3.jfif" alt="" />
-            <p class="events__item--text">
-              <strong>•</strong> Grapes Variety 2022
-            </p>
-          </div>
-          <div class="events__item">
-            <img class="events__item--img" src="img/img_section_testimonials/events_4.jfif" alt="" />
-            <p class="events__item--text">
-              <strong>•</strong> Wine Festival 2022
-            </p>
-          </div>
-          <div class="events__item">
-            <img class="events__item--img" src="img/img_section_testimonials/events_5.jfif" alt="" />
-            <p class="events__item--text"><strong>•</strong> Wine Cellar 2023</p>
+      <!-- Out events  -->
+      <div class="events">
+        <div class="container">
+          <div class="events__row">
+            <div class="events__item">
+              <img
+                class="events__item--img"
+                src="img/img_section_testimonials/events_1.jfif"
+                alt=""
+              />
+              <p class="events__item--text">
+                <strong>•</strong> Wine Tasting 2021
+              </p>
+            </div>
+            <div class="events__item">
+              <img
+                class="events__item--img"
+                src="img/img_section_testimonials/events_2.jfif"
+                alt=""
+              />
+              <p class="events__item--text">
+                <strong>•</strong> The Best Vineyard 2022
+              </p>
+            </div>
+            <div class="events__item">
+              <img
+                class="events__item--img"
+                src="img/img_section_testimonials/events_3.jfif"
+                alt=""
+              />
+              <p class="events__item--text">
+                <strong>•</strong> Grapes Variety 2022
+              </p>
+            </div>
+            <div class="events__item">
+              <img
+                class="events__item--img"
+                src="img/img_section_testimonials/events_4.jfif"
+                alt=""
+              />
+              <p class="events__item--text">
+                <strong>•</strong> Wine Festival 2022
+              </p>
+            </div>
+            <div class="events__item">
+              <img
+                class="events__item--img"
+                src="img/img_section_testimonials/events_5.jfif"
+                alt=""
+              />
+              <p class="events__item--text">
+                <strong>•</strong> Wine Cellar 2023
+              </p>
+            </div>
           </div>
         </div>
       </div>
