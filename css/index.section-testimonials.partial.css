@@ -1,3 +1,15 @@
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+CiAgPHBhdGggZmlsbD0iI2JjNmU0NCIgZD0iTTE5LjUzMyAxNWwtOS4xLTkuNDVjLS41NzctLjYtLjU3Ny0xLjUgMC0yLjEuNTc4LS42IDEuNDQ1LS42IDIuMDIzIDBsMTAuMTEgMTAuNWMuMjkuMy40MzQuNzUuNDM0IDEuMDUgMCAuNDUtLjE0NC43NS0uNDMzIDEuMDVsLTEwLjExMSAxMC41Yy0uMjkuMy0uNTc4LjQ1LTEuMDEyLjQ1LS40MzMgMC0uNzIyLS4xNS0xLjAxLS40NS0uNTc4LS42LS41NzgtMS41IDAtMi4xbDkuMS05LjQ1eiIgLz4KPC9zdmc+");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+CiAgPHBhdGggZmlsbD0iI2JjNmU0NCIgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDE1IDE1KSIgZD0iTTE5LjUzMyAxNWwtOS4xLTkuNDVjLS41NzctLjYtLjU3Ny0xLjUgMC0yLjEuNTc4LS42IDEuNDQ1LS42IDIuMDIzIDBsMTAuMTEgMTAuNWMuMjkuMy40MzQuNzUuNDM0IDEuMDUgMCAuNDUtLjE0NC43NS0uNDMzIDEuMDVsLTEwLjExMSAxMC41Yy0uMjkuMy0uNTc4LjQ1LTEuMDEyLjQ1LS40MzMgMC0uNzIyLS4xNS0xLjAxLS40NS0uNTc4LS42LS41NzgtMS41IDAtMi4xbDkuMS05LjQ1eiIgLz4KPC9zdmc+");
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #bc6e44;
+}
+
 .testimonials {
   display: flex;
   flex-direction: column;
@@ -8,7 +20,7 @@
   margin-top: 30px;
 }
 
-.carousel-item{
+.carousel-item {
   height: 410px;
 }
 
@@ -98,7 +110,7 @@
     margin-top: 60px;
   }
 
-  .carousel-item{
+  .carousel-item {
     height: 420px;
   }
 
@@ -139,8 +151,8 @@
 
   .events__item {
     .events__item--img {
-        max-width: 200px;
-        max-height: 200px;
+      max-width: 200px;
+      max-height: 200px;
     }
 
     height: 100%;
@@ -154,7 +166,7 @@
     margin-top: 90px;
   }
 
-  .carousel-item{
+  .carousel-item {
     height: 510px;
   }
 
@@ -189,10 +201,10 @@
 
   .events__item {
     .events__item--img {
-        min-width: 150px;
-        min-height: 150px;
-        max-width: 200px;
-        max-height: 200px;
+      min-width: 150px;
+      min-height: 150px;
+      max-width: 200px;
+      max-height: 200px;
     }
 
     max-height: 100%;
@@ -200,9 +212,8 @@
   }
 }
 
-
 @media (min-width: 978px) {
-    .events__row {
-        flex-wrap: nowrap;
-      }
+  .events__row {
+    flex-wrap: nowrap;
+  }
 }
