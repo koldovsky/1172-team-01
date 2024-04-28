@@ -10,6 +10,10 @@
   background-color: #bc6e44;
 }
 
+/* .testimonial-carousel{
+  width: 1200px !important;
+} */
+
 .testimonials {
   display: flex;
   flex-direction: column;
@@ -212,8 +216,32 @@
   }
 }
 
+/* .testimonial-carousel{
+  width: 1200px !important;
+} */
+@media (min-width: 920px) {
+  .testimonial-carousel{
+    max-width: 890px !important;
+  }
+}
+
+
 @media (min-width: 978px) {
   .events__row {
     flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 1190px) {
+  .testimonial-carousel{
+    max-width: 1150px !important;
+    width: 1150px !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .testimonial-carousel{
+    max-width: 1450px !important;
+    width: 1450px !important;
   }
 }
