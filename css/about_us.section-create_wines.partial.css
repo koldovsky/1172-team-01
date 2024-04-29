@@ -61,15 +61,12 @@
   font-family: "Cormorant Infant", serif;
 }
 .welcome-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.welcome-text {
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .welcome-text__text {
-  display: flex;
+  /* display: flex; */
 }
 
 .welcome-text__text::before {
@@ -139,7 +136,7 @@
   }
 
   .welcome-text {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .card {
@@ -179,11 +176,11 @@
   }
 
   .welcome-text {
-    flex-direction: row;
+    /* flex-direction: row; */
   }
 
   .welcome-text > *:last-child {
-    margin-left: 8px;
+    /* margin-left: 8px; */
   }
 
   .card {
@@ -195,8 +192,8 @@
   }
 
   .welcome-text__text::before {
-    height: 20px;
-    width: 20px;
+    /* height: 20px;
+    width: 20px; */
   }
 
   .welcome-subtext {
