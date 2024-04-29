@@ -1,0 +1,136 @@
+.create-wines {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.create-wines-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* width: a; */
+}
+
+.create-wines-header__title {
+  color: var(--title-color);
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.create-wines-header__text {
+  font-size: 38px;
+  word-wrap: break-word;
+}
+
+.create-wines-header__subtitle {
+  font-size: 19px;
+  color: var(--text-color);
+}
+
+.create-wines-carousel {
+    display: flex;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+
+.carousel-control {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.carousel-control.left {
+    left: 10px;
+}
+
+.carousel-control.right {
+    right: 10px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    min-width: 33.3333%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f8f9fa;
+    padding: 0 10px;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+}
+.welcome {
+}
+.welcome-title {
+}
+.welcome-title__text {
+}
+.welcome-title__subtitle {
+}
+.welcome-text {
+}
+.welcome-text__text {
+}
+.welcome-text__subtext {
+}
+.welcome-button {
+}
+.welcome-button__btn {
+}
+.welcome-cards__row {
+}
+.welcome-cards__card {
+}
+.welcome-card {
+}
+.welcome-card__text {
+}
+.welcome-card__text--title {
+}
+.welcome-card__text--subtitle {
+}
