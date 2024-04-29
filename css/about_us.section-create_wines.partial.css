@@ -51,6 +51,7 @@
 .welcome-title {
   color: #fff;
 }
+
 .welcome-title__text {
   font-size: 12px;
   letter-spacing: 2px;
@@ -60,13 +61,13 @@
   font-size: 30px;
   font-family: "Cormorant Infant", serif;
 }
-.welcome-text {
-  /* display: flex;
-  flex-direction: column; */
+.about-us__welcome-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .welcome-text__text {
-  /* display: flex; */
+  display: flex;
 }
 
 .welcome-text__text::before {
@@ -135,8 +136,8 @@
     font-size: 16px;
   }
 
-  .welcome-text {
-    /* flex-direction: column; */
+  .about-us__welcome-text {
+    flex-direction: column;
   }
 
   .card {
@@ -175,12 +176,12 @@
     font-size: 24px;
   }
 
-  .welcome-text {
-    /* flex-direction: row; */
+  .about-us__welcome-text {
+    flex-direction: row;
   }
 
-  .welcome-text > *:last-child {
-    /* margin-left: 8px; */
+  .about-us__welcome-text > *:last-child {
+    margin-left: 8px;
   }
 
   .card {
