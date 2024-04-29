@@ -84,12 +84,9 @@
 }
 
 .welcome-button {
-  /* padding-top: 20px; */
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   height: 100px;
-  background-color: none; /* Измените на нужный цвет фона */
 }
 
 .welcome-button__btn {
