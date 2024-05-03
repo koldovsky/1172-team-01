@@ -1,0 +1,158 @@
+.membership-benefits__benefits-container{
+    display: flex;
+    min-width: 95vw;
+    min-height: 100vh;
+}
+.membership-benefits__benefits-img{
+    background-image: url(../img/img_wineclub_section/wineclub_member-benefits.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100px;
+}
+.membership-benefits__benefits-description{
+    background-color: var(--background-color);
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.benefits-description__small-title{
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    color: var(--title-color);
+    text-transform: uppercase;
+}
+.benefits-description__big-title{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Cormorant Infant", serif;
+    color:var(--description-text-color);
+}
+.benefits-description__big-title em{
+    font-family: "Cormorant Infant", serif;
+}
+.benefits-description__learn-more-text{
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.benefits-description__membership-in-our-club-text{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.benefits-description__points-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.benefits-description__check-mark{
+    height: 20px;
+    width: 20px;
+    display: block;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+.benefits-description__points-container{
+    display: flex;
+    margin-bottom: 16px;
+}
+.benefits-description__points-container span{
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--data-color);
+}
+.benefits-description__by-becoming{
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+.membership-benefits__become-a-club-member{
+    display: flex;
+    padding: 45px 40px;
+    background-color: var(--title-color);
+    min-height: 20vh;
+}
+.become-a-club-member__title{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Cormorant Infant", serif;
+    color:var(--wineclub-header-text-color);
+}
+.become-a-club-member__title em{
+    font-family: "Cormorant Infant", serif;
+}
+.become-a-club-member__text{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--background-color);
+}
+.become-a-club-member__button{
+    text-decoration: none;
+    margin: 10px;
+    min-width: 105px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: 1.6px solid var(--text-button-color);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-button-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.become-a-club-member__button:hover{
+    background-color: var(--text-button-color);
+    color: var(--description-text-color);
+}
+@media (max-width: 768px) {
+    .membership-benefits__benefits-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .membership-benefits__benefits-img{
+        display: block;
+        background-image: url(../img/img_wineclub_section/wineclub_member-benefits.jpg);
+        background-size: cover;
+        justify-content: center;
+        min-width: 100px;
+        min-height: 100px;
+        width: 95vw;
+        height: 40vh;
+    }
+    .membership-benefits__become-a-club-member{
+        flex-direction: column;
+    }
+    .become-a-club-member__title{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .become-a-club-member__text{
+        margin-top: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .become-a-club-member__button{
+       margin-top: 50px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+

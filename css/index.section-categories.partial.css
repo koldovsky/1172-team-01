@@ -106,8 +106,12 @@
   font-family: var(--font-spectral);
 }
 
-.section-categories__item-button {
-  background-color: var(--color-button-background);
+.section-categories__item-button__learn {
+  margin-bottom: 30 px;
+  padding: 10px 15px;
+  background-color: var(--title-color);
+  border-color: var(--text-button-color);
+  border: solid 1px;
   font: var(--font-spectral);
   font-size: 15px;
   color: var(--color-button-text);

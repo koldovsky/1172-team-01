@@ -1,0 +1,53 @@
+.wine-category{
+    margin: 0 60px 0;
+    font-family: "Spectral", serif;
+    font-size: 24px;
+    display: flex;
+    color: var(--title-color);
+}
+.white-wine {
+    padding: 50px 0 30px;
+}
+
+/*.left-list-white-wine {
+    display: flex;
+    flex-direction: column;
+}
+.right-list-white-wine {
+    margin: 0 115px 0;
+    display: flex;
+    flex-direction: column;
+}*/
+.wine-list{
+    display: flex;
+    flex-direction: column;
+    /*margin: 0 115px 0;*/
+}
+.wine-item{
+    padding: 10px 10px 10px;
+}
+.wine-name--price{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.wine-name{
+    display: flex;
+    flex-direction: column
+    font-family: "Cormorant" serif;
+    font-size: 28px;
+    color: var(--text-color);
+}
+.wine-description{
+    display: flex;
+    flex-direction: column;
+    font-family: "Spectral" serif;
+    font-size: 17px;
+    color: var(--description-text-color: #2a2824);
+}
+.wine-price{
+    display: block;
+    font-family: "Cormorant infant" serif;
+    font-size: 28px;
+    color: var(--title-color);
+}

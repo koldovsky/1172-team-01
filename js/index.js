@@ -3,6 +3,7 @@ function init() {
     import('./common.header-clock.js');
     import('./index.testimonials.js');
     import('./index.section-benefits.partial.js');
+    import('./about_us.create_wines.js');
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
