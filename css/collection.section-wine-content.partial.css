@@ -1,39 +1,30 @@
 .wine-category{
-    margin: 0 60px 0;
+    margin: 40px 60px -40px;
     font-family: "Spectral", serif;
     font-size: 24px;
-    display: flex;
     color: var(--title-color);
 }
-.white-wine {
+.white-wine,
+.red-wine,
+.rose-wine,
+.sparkling-wine,
+.canned-wine {
     padding: 50px 0 30px;
 }
-
-/*.left-list-white-wine {
-    display: flex;
-    flex-direction: column;
-}
-.right-list-white-wine {
-    margin: 0 115px 0;
-    display: flex;
-    flex-direction: column;
-}*/
 .wine-list{
     display: flex;
     flex-direction: column;
-    /*margin: 0 115px 0;*/
 }
 .wine-item{
     padding: 10px 10px 10px;
 }
 .wine-name--price{
-    
     display: flex;
     justify-content: space-between;
 }
 .wine-name{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
     font-family: "Cormorant" serif;
     font-size: 28px;
     color: var(--text-color);
@@ -43,7 +34,7 @@
     flex-direction: column;
     font-family: "Spectral" serif;
     font-size: 17px;
-    color: var(--description-text-color: #2a2824);
+    color: var(--description-text-color #2a2824);
 }
 .wine-price{
     display: block;
@@ -51,3 +42,36 @@
     font-size: 28px;
     color: var(--title-color);
 }
+@media (min-width: 900px) {
+    .wine-category{
+        display: flex;
+        justify-content: center;
+    }
+    .white-wine,
+    .red-wine,
+    .rose-wine,
+    .sparkling-wine,
+    .canned-wine{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .left-list-white-wine,
+    .left-list-red-wine,
+    .left-list-rose-wine,
+    .left-list-sparkling-wine,
+    .left-list-canned-wine {
+        margin: 0 115px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-list-white-wine,
+    .right-list-red-wine,
+    .right-list-rose-wine,
+    .right-list-sparkling-wine,
+    .right-list-canned-wine {
+        margin: 0 115px 0;
+        display: flex;
+        flex-direction: column;
+    }
+}    
