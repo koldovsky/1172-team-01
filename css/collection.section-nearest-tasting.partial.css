@@ -1,0 +1,67 @@
+.nearest-tasting {
+  background-image: url(../img/img_collection/luxury-wine.webp);
+  background-size: cover;
+  padding: 110px 20px;
+}
+.nearest-tasting__content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0;
+  padding: 0 15px;
+}
+.nearest-tasting__content__wine-details {
+  display: flex;
+  flex-direction: column;
+}
+.nearest-tasting__content__wine-details__head {
+  font-family: "Cormorant infant" serif;
+  font-size: 38px;
+  color: #ffffffb0;
+}
+.nearest-tasting__content__wine-details__description {
+  font-family: "Spectral" serif;
+  font-size: 20px;
+  color: #faf8f2b0;
+}
+.nearest-tasting__description {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0;
+  padding: 0 15px;
+}
+.nearest-tasting__tasting-notes {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0;
+  padding: 0 15px;
+}
+.nearest-tasting__description__title,
+.nearest-tasting__description__food-pairings,
+.nearest-tasting__tasting-notes__title,
+.nearest-tasting__tasting-notes__vineyards {
+  font-family: "Cormorant infant" serif;
+  font-size: 24px;
+  color: #ffffffb0;
+}
+.nearest-tasting__content__title,
+.nearest-tasting__description__details,
+.nearest-tasting__description__food-pairings-list,
+.nearest-tasting__tasting-notes__details,
+.nearest-tasting__tasting-notes__vineyards-list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Spectral" serif;
+  font-size: 17px;
+  color: #faf8f2b0;
+}
+@media (min-width: 900px) {
+    .nearest-tasting{
+        background-size: cover;
+        background-position: center;
+    }
+  .nearest-tasting__content__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

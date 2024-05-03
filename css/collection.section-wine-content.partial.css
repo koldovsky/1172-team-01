@@ -1,3 +1,6 @@
+.wine-content{
+    background-color: var(--background-color);
+}
 .wine-category{
     margin: 40px 60px -40px;
     font-family: "Spectral", serif;
