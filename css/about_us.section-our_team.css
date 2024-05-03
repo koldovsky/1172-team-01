@@ -25,8 +25,8 @@
     max-width: 25%;
 }
 .our_team-left img{
-    height: 100%;
-    width: 100%;
+    width: 300px;
+    aspect-ratio: 1;
     object-fit: cover;
     object-position: 65.198% 50%;
 }
@@ -58,6 +58,9 @@
     font-weight: 400;
     font-size: 25px;
 }
+.personality{
+    margin-top: 10px;
+}
 .person_image{
     img{
         border-radius: 50%;
@@ -67,7 +70,7 @@
     
     
 }
-@media (max-width:780px) {
+@media (max-width:1400px) {
     
     .our_team{
         padding: 90px 70px;
@@ -83,29 +86,30 @@
       .our_team-left{
         max-width: 100%;
       }
+      .our_team-left img{
+        width: 100%;
+      }
 
 
 }
-.john_smith_accordion{
-    margin-top: 25px;
-    cursor: pointer;
-}
-.accordion_text{
-    margin-top: 25px;
-    color: #837d71;
-    display: none;
-}
-.accordion_tittle{
+.accordion-header::after {
+    border: none;
+  }
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+  }
+  .accordion {
+    --bs-accordion-active-color: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+  }
+.button_text{
     font-style: italic;
-    color: #594e4c;
-    font-weight: bold;
-    cursor: pointer;
+    font-weight: 400;   
 }
-.accordion_input{
-    /* appearance: none; */
-    
-    position: absolute;
-}
-.accordion_input:checked + .accordion_text{
-    display: block;
+.accordion-body{
+    font-size: 18px;
 }

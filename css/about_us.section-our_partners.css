@@ -30,7 +30,7 @@
     font-size: 19px;
 }
 .block_of_image{
-    max-width: 500px;
+    max-width: 240px;
     height: 100px;
     background-color: rgba(143,142,140,0.1);
     background-repeat: no-repeat;
