@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-image: url(/img/img_about_us_our_partners/background.png);
+    background-image: url(../img/img_about_us_our_partners/background.png);
     padding:100px 50px;
 }
 .our_partners_header-title {
