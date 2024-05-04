@@ -1,9 +1,9 @@
 .create-wines {
   padding-top: 90px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--background-color);
 }
 
 .create-wines-header {
@@ -11,7 +11,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* width: a; */
 }
 
 .create-wines-header__title {
@@ -46,6 +45,7 @@
   background-size: cover;
   padding: 40px;
   color: #fff;
+  background-position: right;
 }
 
 .welcome-title {
@@ -108,20 +108,64 @@
 }
 
 .welcome-cards__row {
-  color: #a05a2c; /* Цвет текста при наведении */
-  background-color: #fff; /* Цвет фона кнопки при наведении */
-  cursor: pointer;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-cards__row > :nth-child(1) {
+  background-image: url(../img/about_us-create_wines/create_wines_card_2.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.welcome-cards__row > :nth-child(2) {
+  background-image: url(../img/about_us-create_wines/create_wines_card_1.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.welcome-cards__row > :nth-child(3) {
+  background-image: url(../img/about_us-create_wines/create_wines_card_3.webp);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .welcome-cards__card {
+  min-width: 100%;
 }
+
 .welcome-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
 }
-.welcome-card__text {
-}
+
 .welcome-card__text--title {
+  color: var(--description-text-color);
+  font-size: 24px;
 }
+
 .welcome-card__text--subtitle {
+  color: var(--text-color);
+  font-size: 17px;
+}
+
+.welcome-card__text--link {
+  color: var(--title-color);
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.welcome-card__text--link:hover {
+  color: var(--title-color);
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -154,13 +198,13 @@
     font-size: 16px;
   }
 
-  .welcome-button {
-    /* height: 150px; */
-  }
-
   .welcome-button__btn {
     padding: 15px 25px;
     font-size: 18px;
+  }
+
+  .welcome-cards__card {
+    min-width: 47%;
   }
 }
 
@@ -189,21 +233,21 @@
     font-size: 40px;
   }
 
-  .welcome-text__text::before {
-    /* height: 20px;
-    width: 20px; */
-  }
-
   .welcome-subtext {
     font-size: 24px;
-  }
-
-  .welcome-button {
-    /* height: 150px; */
   }
 
   .welcome-button__btn {
     padding: 15px 30px;
     font-size: 20px;
+  }
+
+  .welcome-cards__card {
+    min-width: 30%;
+  }
+
+  .welcome-cards__row {
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
 }
