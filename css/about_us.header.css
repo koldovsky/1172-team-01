@@ -1,5 +1,5 @@
 .header_block{
-    background-image: linear-gradient(rgba(42, 40, 36, 0.5), rgba(42, 40, 36, 0.6)),url(img/about_us-header_page/about_us-header-background.jpg);
+    background-image: linear-gradient(rgba(42, 40, 36, 0.5), rgba(42, 40, 36, 0.6)),url(/img/about_us-header_page/about_us-header-background.jpg);
     background-size: cover;
     background-position:bottom;
     min-height: 470px

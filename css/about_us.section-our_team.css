@@ -6,9 +6,10 @@
 }
 .our_team{
     background-image: url(/img/img_about_us_our_team/background.svg);
-    /* background-position:; */
     padding-top: 110px;
     padding-bottom: 90px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 .our_team-content{
     display: flex;
@@ -70,7 +71,7 @@
     
     
 }
-@media (max-width:1400px) {
+@media (max-width:1500px) {
     
     .our_team{
         padding: 90px 70px;
@@ -78,6 +79,8 @@
     .our_team-content{
         display: flex;
         flex-direction: column;
+        margin: 0;
+        gap: 0;
       }
       .our_team-right{
         display: grid;
@@ -88,6 +91,7 @@
       }
       .our_team-left img{
         width: 100%;
+        gap: 0;
       }
 
 
@@ -112,4 +116,11 @@
 }
 .accordion-body{
     font-size: 18px;
+}
+.details{
+    display: flex;
+    gap: 10px;
+}
+.proffesion{
+    margin: 0;
 }
