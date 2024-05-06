@@ -13,8 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:75px;
-    padding: 0;
+    padding: 135px;
     color: white;
 }
 .main_text h1 {
