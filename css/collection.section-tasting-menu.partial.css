@@ -1,0 +1,40 @@
+.tasting-menu{
+    padding: 90px 20px 70px;
+}
+.tasting-menu__content__header{
+    display: flex;
+    flex-direction: column;
+
+}
+.tasting-menu__content__header__name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Spectral" serif;
+    font-size: 17px;
+    color: #BC6E44;
+}
+.tasting-menu__content__header__current{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Cormorant infant" serif;
+    font-size: 38px;
+    color: #2a2824;
+}
+.tasting-menu__content__header__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Spectral" serif;
+    font-size: 19px;
+    color: #837D71;
+}
+.tasting-menu__content__list{
+    display: flex;
+    flex-direction: column;
+}
+.tasting-menu__content__list-item{
+
+}

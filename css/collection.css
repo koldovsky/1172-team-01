@@ -3,4 +3,5 @@
 @import url(common.header-address.partial.css);
 @import url(common.header-menu.partial.css);
 @import url(collection.section-wine-content.partial.css);
-@import url(collection.section-nearest-tasting.partial.css)
+@import url(collection.section-nearest-tasting.partial.css);
+@import url(collection.section-tasting-menu.partial.css);
