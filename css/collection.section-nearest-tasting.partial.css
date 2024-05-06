@@ -64,4 +64,23 @@
     flex-direction: row;
     justify-content: center;
   }
+  .nearest-tasting__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0 0 180px;
+  }
+  .nearest-tasting__section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 0 200px;
+  }
+  .nearest-tasting__tasting-notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+
