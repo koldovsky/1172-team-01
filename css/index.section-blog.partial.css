@@ -30,7 +30,7 @@
   background-position: 86% 40%;
 }
 .blog__sparkling-wine {
-  background: #faf8f2;
+  background: var(--background-color);
 }
 .blog__food-and-wine,
 .blog__img-harvest,
@@ -55,7 +55,7 @@
 }
 .blog__metadata {
   font-family: "Spectral", serif;
-  color: rgb(84, 78, 76);
+  color: var(--text-color);
   font-style: italic;
   font-size: 15px;
   font-weight: 400;
@@ -64,7 +64,7 @@
 }
 .blog__title {
   font-family: "Cormorant Infant", serif;
-  color: #2a2824;
+  color: var(--data-color);
   font-size: 28px;
   font-weight: 500;
   line-height: 33.6px;
