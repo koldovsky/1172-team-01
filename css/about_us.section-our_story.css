@@ -1,74 +1,74 @@
-.our_story{
-    padding: 100px 50px;
-    text-align: center;
+.our_story {
+  padding: 100px 50px;
+  text-align: center;
 }
-.our_story-header-heading_text{
-    font-family: "Spectral", serif;
-    font-size: 12px;
-    letter-spacing: 2.4px;
-    color: #bc6e44;
+.our_story-header-heading_text {
+  font-family: "Spectral", serif;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  color: #bc6e44;
 }
-.our_story-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.our_story-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.our_story-header-main_text{
-    font-family: "Cormorant Infant", serif;
-    font-size: 52px;
-    font-weight: 400;
-    color: black;
+.our_story-header-main_text {
+  font-family: "Cormorant Infant", serif;
+  font-size: 52px;
+  font-weight: 400;
+  color: black;
 }
-.image_block{
-    max-width: 50%;
+.image_block {
+  max-width: 50%;
 }
-.image_block img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 65.198% 50%;
-    
+.image_block img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 65.198% 50%;
 }
-.descriprion_block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.descriprion_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.main_text_of_descriprion{
-    max-width: 55%;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+.main_text_of_descriprion {
+  max-width: 55%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
-.column{
-    margin: 25px;
-    max-width: 40%;
+.column {
+  margin: 25px;
+  max-width: 40%;
 }
-.column,.description{
-    display: flex;
-    flex-direction: column;
+.column,
+.description {
+  display: flex;
+  flex-direction: column;
 }
-.paragraph{
-    margin-top: 20px;
+.paragraph {
+  margin-top: 20px;
 }
-.footer{
-    display: flex;
-    justify-content: center;
+.dates-container {
+  display: flex;
+  justify-content: center;
 }
-.dates{
-    display: flex;
-    gap: 15px;
-    text-align: start;
-    max-width: 60%;
+.dates {
+  display: flex;
+  gap: 15px;
+  text-align: start;
+  max-width: 60%;
 }
-.year{
-    font-family: "Cormorant Infant", serif;
-    font-size: 30px;
-    font-weight: 450;
-    color: black;
+.year {
+  font-family: "Cormorant Infant", serif;
+  font-size: 30px;
+  font-weight: 450;
+  color: black;
 }
-.divider_of_components{
-    width: 10%;
-    height: 1px;
-    background-color: red;
+.divider_of_components {
+  width: 10%;
+  height: 1px;
+  background-color: red;
 }
