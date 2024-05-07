@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="css/about_us.css">
   <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon" />
+  <link rel="stylesheet" href="css/common.footer.partial.css" />
 
   <script src="https://unpkg.com/htmx.org@1.9.10"
     integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -50,7 +51,11 @@
   </main>
 
 
-  <footer></footer>
+  <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="common.footer.partial.html"
+    ></footer>
   
 </body>
 
