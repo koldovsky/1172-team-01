@@ -1,0 +1,249 @@
+/* Set a style for all buttons */
+.modal-button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+  font-size: 25px;
+}
+
+.modal-header {
+  display: inline;
+  padding: 24px 20px;
+  margin: 40 auto;
+  font-size: 50px;
+}
+
+.modal-text {
+  display: block;
+  padding: 54px 20px;
+  margin: 0 auto;
+  font-size: 30px;
+  width: 80%;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn,
+.deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  opacity: 0.9;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  opacity: 1;
+  background-color: #f1f1f1;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add padding and center-align text to the container */
+.modal-container {
+  padding: 16px;
+  text-align: center;
+  opacity: 1;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .deletebtn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .modal-content {
+    width: 60%;
+  }
+
+  .modal-button {
+    font-size: 20px;
+  }
+
+  .modal-header {
+    font-size: 40px;
+  }
+
+  .modal-text {
+    font-size: 20px;
+  }
+
+  .cancelbtn,
+  .deletebtn {
+    width: 100%;
+  }
+
+  .close {
+    font-size: 30px;
+  }
+
+  .modal-container {
+    padding: 8px;
+  }
+
+  .modal {
+    padding-top: 30px;
+  }
+
+  .modal-content {
+    margin: 5% auto 15% auto;
+  }
+
+  .modal-button {
+    padding: 8px 20px;
+  }
+
+  .modal-header {
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+  }
+
+  .modal-button {
+    font-size: 20px;
+  }
+
+  .modal-header {
+    font-size: 40px;
+  }
+
+  .modal-text {
+    font-size: 20px;
+  }
+
+  .cancelbtn,
+  .deletebtn {
+    width: 100%;
+  }
+
+  .close {
+    font-size: 30px;
+  }
+
+  .modal-container {
+    padding: 8px;
+  }
+
+  .modal {
+    padding-top: 20px;
+  }
+
+  .modal-content {
+    margin: 5% auto 15% auto;
+  }
+
+  .modal-button {
+    padding: 10px 20px;
+  }
+
+  .modal-header {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal-content {
+    width: 90%;
+  }
+
+  .modal-button {
+    font-size: 15px;
+  }
+
+  .modal-header {
+    font-size: 30px;
+  }
+
+  .modal-text {
+    font-size: 15px;
+  }
+
+  .cancelbtn,
+  .deletebtn {
+    width: 100%;
+  }
+
+  .close {
+    font-size: 20px;
+  }
+
+  .modal-container {
+    padding: 4px;
+  }
+
+  .modal {
+    padding-top: 10px;
+  }
+
+  .modal-content {
+    margin: 5% auto 15% auto;
+  }
+
+  .modal-button {
+    padding: 8px 20px;
+  }
+
+  .modal-header {
+    padding: 8px 20px;
+  }
+}

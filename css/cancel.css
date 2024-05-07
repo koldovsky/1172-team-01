@@ -1,0 +1,24 @@
+@import url(global.css);
+
+.cansel-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 250px 0;
+  height: 100%;
+}
+
+.cansel-header {
+  font-size: 58px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cancel-text {
+  padding-top: 50px;
+  font-size: 30px;
+  width: 80%;
+  text-align: center;
+}

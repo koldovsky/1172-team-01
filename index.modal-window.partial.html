@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- <h2>Delete Modal</h2>
+
+    <button onclick="document.getElementById('id01').style.display='block'">
+      Open Modal
+    </button> -->
+
+    <div id="id01" class="modal">
+      <form class="modal-content">
+        <div class="modal-container">
+          <h1 class="modal-header">Confirm Your Age</h1>
+          <p class="modal-text">
+            We don't sell alcohol to minors. Please confirm that you are over 21
+            years old to enter this site.
+          </p>
+
+          <div class="clearfix">
+            <button
+              type="button"
+              onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn modal-button"
+            >
+              Yes. I am over 21+
+            </button>
+            <button
+              type="button"
+              onclick="window.location.href='cancel.html';"
+              class="deletebtn modal-button"
+            >
+              No. I am under 21.
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
