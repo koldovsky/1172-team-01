@@ -41,6 +41,7 @@
 .footer__contact-phone a:hover,
 .footer__nav a:hover {
   text-decoration: underline;
+  color: var(--text-button-color);
 }
 .footer__nav a {
   color: var(--footer-text-color);
