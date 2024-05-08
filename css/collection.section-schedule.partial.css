@@ -1,4 +1,99 @@
-.schedule{
-    padding: 90px 0 70px;
-    background-color: var(--title-color);
+.schedule {
+  padding: 50px 0 60px;
+  background-color: var(--title-color);
+}
+.schedule__content {
+  padding: 0 20px;
+}
+.schedule-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Spectral" serif;
+  font-size: 17px;
+  color: #faf8f2;
+}
+.schedule-subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Cormorant Infant" serif;
+  font-size: 38px;
+  color: #ffffff;
+}
+.schedule-description {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Spectral" serif;
+  font-size: 17px;
+  color: #faf8f2b0;
+}
+
+.schedule__content__form {
+  margin: 60px 0 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.schedule__content__form__form__input_name,
+.schedule__content__form__form__input_number {
+  margin: 12px 0 0;
+  padding: 12px 19px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.schedule__content__form__form__input_number {
+  margin: 12px 0 0;
+  padding: 12px 19px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.schedule__content__form__form__submit-button {
+  background-color: var(--title-color);
+  margin: 12px 0 0;
+  padding: 12px 19px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  border: solid 1px;
+  border-color: var(--text-button-color);
+}
+.text-send-request {
+  font-family: "Spectral" serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .schedule__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .schedule__content__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40%;
+  }
+  .schedule-title,
+  .schedule-subtitle,
+  .schedule-description{
+    justify-content: start;
+  }
+  .schedule__content__form {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+  }
+  .schedule__content__form__form__input_name,
+  .schedule__content__form__form__input_number,
+  .schedule__content__form__form__submit-button{
+    width: 180%;
+  }
 }

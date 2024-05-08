@@ -10,16 +10,22 @@
       <div class="schedule__content">
         <div class="schedule__content__info">
           <div>
-            <span>
-              <em>~ SCHEDULE ~</em>
-            </span>
-            <span>Schedule Your Tasting.</span>
-            <span
-              >Our Tasting Room is located on the top of the hilly vineyard and
-              offers guided tastings of all our great wine selections. Come
-              visit us to enjoy our wines and relax sipping a divine drink while
-              we take care of the rest.</span
-            >
+            <div class="schedule-title">
+              <span>
+                <em>~ SCHEDULE ~</em>
+              </span>
+            </div>
+            <div class="schedule-subtitle">
+              <span>Schedule Your Tasting.</span>
+            </div>
+            <div class="schedule-description">
+              <span
+                >Our Tasting Room is located on the top of the hilly vineyard
+                and offers guided tastings of all our great wine selections.
+                Come visit us to enjoy our wines and relax sipping a divine
+                drink while we take care of the rest.</span
+              >
+            </div>
           </div>
         </div>
         <div class="schedule__content__form">
@@ -30,7 +36,7 @@
               method="POST"
             >
               <input
-                class="schedule__content__form__form__input"
+                class="schedule__content__form__form__input_name"
                 type="text"
                 required
                 id="name"
@@ -38,7 +44,7 @@
                 placeholder="Name"
               />
               <input
-                class="schedule__content__form__form__input"
+                class="schedule__content__form__form__input_number"
                 type="text"
                 required
                 id="number"
@@ -49,7 +55,7 @@
                 class="schedule__content__form__form__submit-button"
                 type="submit"
               >
-                Send a Request
+                <span  class="text-send-request"> Send a Request</span>
               </button>
             </form>
           </div>
