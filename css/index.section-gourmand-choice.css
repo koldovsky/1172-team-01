@@ -6,7 +6,9 @@
 }
 .section-gourmand-choice__title{
     color: var(--title-color);
-    font-family: Spectral, serif;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    font-family: "Spectral", serif;
     font-size: 12px;
 }
 .section-gourmand-choice__description{
