@@ -1,67 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<!--Код написаний руцями, класи зробив в ChatGPT-->
+  </head>
+  <!--Код написаний руцями, класи зробив в ChatGPT-->
 
-<body>
+  <body>
     <section class="section-categories">
-        <div class="section-categories__categories categories">
-            <div class="categories__content">
-                <div class="categories__text">
-                    <h2 class="categories__title">CATEGORIES</h2>
-                    <p class="categories__description">Vast and Diverse Array of Wines Is Waiting for You.</p>
-                    <p class="categories__action">Sign up for a tasting or order delivery.</p>
-                    <div class="categories__action_list">
-                        <a href="#" class="categories__link">Red Wine</a>
-                        <a href="#" class="categories__link">Blanc Wine</a>
-                        <a href="#" class="categories__link">Rose Wine</a>
-                    </div>
-                    <p class="categories__additional-info">Depending on the grapes used, the region where it is produced
-                        and the aging process, wines can vary greatly in taste, texture, and aroma. Taste different
-                        wines and select your favorite ones!</p>
-                </div>
-             <!--   <div class="categories__image">
-                    <img src="img/img_section-categories/categories-wallper.png" alt="Categories Wallpaper"
-                        class="categories__image-img">
-                </div> -->
-            </div>
+      <div class="categories__content">
+        <div class="categories__text">
+          <h2 class="categories__title">CATEGORIES</h2>
+          <p class="categories__description">
+            Vast and Diverse Array of Wines Is Waiting for You.
+          </p>
+          <p class="categories__action">
+            Sign up for a tasting or order delivery.
+          </p>
+          <div class="categories__action_list">
+            <a href="collection.html" class="categories__link">Red Wine</a>
+            <a href="collection.html" class="categories__link">Blanc Wine</a>
+            <a href="collection.html" class="categories__link">Rose Wine</a>
+          </div>
+          <p class="categories__additional-info">
+            Depending on the grapes used, the region where it is produced and
+            the aging process, wines can vary greatly in taste, texture, and
+            aroma. Taste different wines and select your favorite ones!
+          </p>
         </div>
-        <div class="section-categories__items">
-            <div class="section-categories__item">
-                <img width="100" src="img/img_section-categories/image-list-1.png" alt="Image List 1" class="section-categories__item-image">
-                <h3 class="section-categories__item-title">Vintage Wines</h3>
-                <p class="section-categories__item-description">Enjoy wines bottled in the 1980s and 1990s. Taste them
-                    and order delivery.</p>
-                <a href="#"><button class="section-categories__item-button__learn">Learn More</button></a>
-            </div>
-            <div class="section-categories__item">
-                <img width="100" src="img/img_section-categories/image-list-2.png" alt="Image List 2" class="section-categories__item-image">
-                <h3 class="section-categories__item-title">The Best Grape</h3>
-                <p class="section-categories__item-description">We use only the highest quality grapes from our
-                    plantations in Texas.</p>
-                <a href="#"><button class="section-categories__item-button__learn">Learn More</button></a>
-            </div>
-            <div class="section-categories__item">
-                <img width="100" src="img/img_section-categories/image-list-3.png" alt="Image List 3" class="section-categories__item-image">
-                <h3 class="section-categories__item-title">Beautiful Bottles</h3>
-                <p class="section-categories__item-description">We work with designers to create the most beautiful wine
-                    bottles.</p>
-                <a href="#"><button class="section-categories__item-button__learn">Learn More</button></a>
-            </div>
-            <div class="section-categories__item">
-                <img width="100" src="img/img_section-categories/image-list-4.png" alt="Image List 4" class="section-categories__item-image">
-                <h3 class="section-categories__item-title">Interesting Tours</h3>
-                <p class="section-categories__item-description">Sign up for a tour and tasting and learn more about our
-                    wines.</p>
-                <a href="#"><button class="section-categories__item-button__learn">Learn More</button></a>
-            </div>
+      </div>
+      <div class="section-categories__items">
+        <div class="item-block-left">
+          <div class="section-categories__item">
+            <img
+              width="100"
+              src="img/img_section-categories/image-list-1.png"
+              alt="Image List 1"
+              class="section-categories__item-image"
+            />
+            <h3 class="section-categories__item-title">Vintage Wines</h3>
+            <p class="section-categories__item-description">
+              Enjoy wines bottled in the 1980s and 1990s. Taste them and order
+              delivery.
+            </p>
+            <a href="#"
+              ><button class="section-categories__item-button__learn">
+                Learn More
+              </button></a
+            >
+          </div>
+          <div class="section-categories__item">
+            <img
+              width="100"
+              src="img/img_section-categories/image-list-2.png"
+              alt="Image List 2"
+              class="section-categories__item-image"
+            />
+            <h3 class="section-categories__item-title">The Best Grape</h3>
+            <p class="section-categories__item-description">
+              We use only the highest quality grapes from our plantations in
+              Texas.
+            </p>
+            <a href="#"
+              ><button class="section-categories__item-button__learn">
+                Learn More
+              </button></a
+            >
+          </div>
         </div>
+        <div class="item-block-right">
+          <div class="section-categories__item">
+            <img
+              width="100"
+              src="img/img_section-categories/image-list-3.png"
+              alt="Image List 3"
+              class="section-categories__item-image"
+            />
+            <h3 class="section-categories__item-title">Beautiful Bottles</h3>
+            <p class="section-categories__item-description">
+              We work with designers to create the most beautiful wine bottles.
+            </p>
+            <a href="#"
+              ><button class="section-categories__item-button__learn">
+                Learn More
+              </button></a
+            >
+          </div>
+          <div class="section-categories__item">
+            <img
+              width="100"
+              src="img/img_section-categories/image-list-4.png"
+              alt="Image List 4"
+              class="section-categories__item-image"
+            />
+            <h3 class="section-categories__item-title">Interesting Tours</h3>
+            <p class="section-categories__item-description">
+              Sign up for a tour and tasting and learn more about our wines.
+            </p>
+            <a href="#"
+              ><button class="section-categories__item-button__learn">
+                Learn More
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
