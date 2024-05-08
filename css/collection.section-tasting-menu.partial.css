@@ -1,10 +1,13 @@
 .tasting-menu{
-    padding: 90px 20px 70px;
+    padding: 90px 0 70px;
+    background-color: var(--background-color);
+}
+.tasting-menu__content{
+    margin: 0 24px;
 }
 .tasting-menu__content__header{
     display: flex;
     flex-direction: column;
-
 }
 .tasting-menu__content__header__name{
     display: flex;
@@ -13,6 +16,7 @@
     font-family: "Spectral" serif;
     font-size: 17px;
     color: #BC6E44;
+    padding: 0 0 50px;
 }
 .tasting-menu__content__header__current{
     display: flex;
@@ -24,7 +28,7 @@
 }
 .tasting-menu__content__header__description{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: "Spectral" serif;
@@ -34,7 +38,28 @@
 .tasting-menu__content__list{
     display: flex;
     flex-direction: column;
+    padding: 90px 0 ;
+    margin: 0 24px;
 }
 .tasting-menu__content__list-item{
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tasting-menu__content__list-item-title{
+    font-family: "Cormorant infant" serif;
+    font-size: 26px;
+    color: #2a2824;
+    padding: 20px 0 10px;
+}
+.tasting-menu__content__list-item-description{
+    font-family: "Spectral" serif;
+    font-size: 19px;
+    color:#837D71;
+    padding: 0 0 10px;
+}
+@media (min-width: 900px) {
+    .tasting-menu__content__list-item{
+        align-items: center;
+    }
 }
