@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: left;
-  min-width: 313px;
+  /* min-width: 313px; */
   word-break: break-word;
 }
 
