@@ -1,5 +1,3 @@
-/* TEST CODE WITHOUT REFACTORING */
-
 .header {
     background-image: linear-gradient(rgba(42, 40, 36, 0.85), rgba(42, 40, 36, 0.6)), url('../img/header.menu/header-cover.jpg');
     background-size: cover;
@@ -52,7 +50,7 @@
     position: relative;
 }
 
-.header__menu-item:hover .header__menu-link {
+.header__menu-link:hover {
     color: var(--text-button-color);
 }
 
@@ -116,17 +114,17 @@
 
 .header-container__menu-icon span {
     top: 50%;
-    transform: scale(1) translate(0px, -45%);
+    transform: scale(1) translate(0px, -50%);
 }
 
 .header-container__menu-icon._active::before {
-    top: 50%;
-    transform: rotate(-43deg) translate(0px, -50%);
+    top: 57%;
+    transform: rotate(-45deg) translate(0px, -50%);
 }
 
 .header-container__menu-icon._active::after {
     top: 50%;
-    transform: rotate(40deg) translate(0px, 50%);
+    transform: rotate(45deg) translate(0px, 50%);
 }
 
 
