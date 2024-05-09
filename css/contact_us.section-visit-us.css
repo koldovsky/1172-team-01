@@ -1,0 +1,111 @@
+.section-contact-us-visit-us{
+    padding: 120px 0 30px;
+}
+.section-contact-us-visit-us__container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.section-contact-us-visit-us__form{
+    background-color: white;
+    max-width: 555px;
+    padding: 50px 80px 50px;
+}
+.section-contact-us-visit-us__title{
+    color: var(--title-color);
+    font-family: "Spectral", serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+}
+.section-contact-us-visit-us__guide-tours-title{
+    display: block;
+    font-size: 36px;
+    font-family: "Cormorant Infant", serif;
+    color: #2a2824;
+    width: bold;
+}
+.section-contact-us-visit-us__title-description{
+    font-size: 28px;
+    font-family: "Cormorant Infant", serif;
+    color: #2a2824;
+}
+.section-contact-us-visit-us__text{
+    font-family: "Spectral", serif;
+    font-size: 12px;
+    color: var(--text-color)
+}
+.section-contact-us-visit-us__description{
+    display: block;
+    font-size: 17px;
+    font-family: "Cormorant Infant", serif;
+    color: var(--text-color);
+    width: bold;
+}
+.section-contact-us-visit-us__text{
+    display: block;
+    color: var(--text-color);
+    font-family: "Spectral", serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.section-contact-us-visit-us_docs{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.section-contact-us-visit-us{
+    background-image: url(/img/img_contact_us.section-visit_us/contact_us_background.png);
+}
+
+.pdf{
+    width: 24px;
+    height: auto;
+}
+
+.glass,
+.jug{
+width: 70px;
+}
+
+.ckeckbox{
+    display: none;
+}
+.ckeckbox_item{
+}
+.ckeckbox_label{
+    display: inline-flex;
+    align-items: center;
+}
+.ckeckbox_label::before{
+    content: "";
+    flex: 0 0 20px;
+    height: 20px;
+    background-color: #bc6e44;
+    color: white;
+    border-radius: 50%;
+    align-self: start;
+}
+.spoller-title{
+position: relative;
+cursor: pointer;
+}
+.spoller._init .spoller-title::before,
+.spoller._init .spoller-title::after{
+content: "";
+width: 20px;
+height: 1px;
+position: absolute;
+transition: transform 0.3s ease 0s;
+}
+.spoller._init .spoller-title::after{
+    transform: rotate(-90deg);
+}
+.spoller._init .spoller-title._active::after{
+    transform: rotate(0deg);
+}
+.spoller-text{
+    display: none;
+}
+
+

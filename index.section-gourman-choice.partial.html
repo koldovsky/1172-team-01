@@ -2,116 +2,133 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <section class="section-gourmand-choice">
-      <div class="section-gourmand-choice__container">
-        <h2 class="section-gourmand-choice__title">~ GOURMAND CHOICE ~</h2>
-        <p class="section-gourmand-choice__description">
-          Experience the Luxury of <em>Wines</em> Aged Since <em>1999</em>.
-        </p>
-        <p class="section-gourmand-choice__text">
-          <span>
-            Have a sip of our vintage wines. Sign up for a tasting or order
-            delivery.
-          </span>
-        </p>
-        <p class="section-gourmand-choice__text">
-          From the dry and mineral whites to the robust and complex reds, the
-          winery's range of wines showcases the best of the region. Each bottle
-          is crafted with passion and care.
-        </p>
-      </div>
-      <div class="section-gourmand-choice__roller">
-        <div class="section-gourmand-choice__arrow">
-          <img
-            src="img/img_section_gourman_choise/arrow_left.svg"
-            alt="Arrow left"
-          />
-        </div>
-        <article class="section-gourmand-choice__roller-slides">
-          <div class="section-gourmand-choice__roller-slide">
-            <img
-              src="img/img_section_gourman_choise/eiswein-wine.png"
-              alt="Eiswein wine"
-            />
-            <h3 class="section-gourmand-choice__roller-slide-title">EISWEIN</h3>
-            <p class="section-gourmand-choice__roller-slide-description">
-              <em>Dessert wine</em>
+      <div class="container">
+        <div class="section-gourmand-choice__content">
+          <div class="section-gourmand-choice__info">
+            <h2 class="section-gourmand-choice__title">~ GOURMAND CHOICE ~</h2>
+            <p class="section-gourmand-choice__description">
+              Experience the Luxury of <em>Wines</em> Aged Since <em>1999</em>.
             </p>
-            <div class="section-gourmand-choice__button">
-              <a href="#" class="section-gourmand-choice__roller-button"
-                >Tasting</a
-              >
-            </div>
-          </div>
-        </article>
-        <article class="section-gourmand-choice__roller-slides">
-          <div class="section-gourmand-choice__roller-slide">
-            <img
-              src="img/img_section_gourman_choise/grenache-rose-wine.png"
-              alt="Grenache rose wine"
-            />
-            <h3 class="section-gourmand-choice__roller-slide-title">
-              GRENACHE ROSE
-            </h3>
-            <p class="section-gourmand-choice__roller-slide-description">
-              <em>Vintage wine(2000)</em>
+
+            <p class="section-gourmand-choice__text">
+              Have a sip of our vintage wines. Sign up for a tasting or order
+              delivery.
             </p>
-            <div class="section-gourmand-choice__button">
-              <a href="#" class="section-gourmand-choice__roller-button"
-                >Tasting</a
-              >
-            </div>
-          </div>
-        </article>
-        <article class="section-gourmand-choice__roller-slides">
-          <div class="section-gourmand-choice__roller-slide">
-            <img
-              src="img/img_section_gourman_choise/pinot-noir-wine.png"
-              alt="Pinot noir wine"
-            />
-            <h3 class="section-gourmand-choice__roller-slide-title">
-              PINOT NOIR
-            </h3>
-            <p class="section-gourmand-choice__roller-slide-description">
-              <em>Vintage wine(1999)</em>
+
+            <p class="section-gourmand-choice__text">
+              From the dry and mineral whites to the robust and complex reds,
+              the winery's range of wines showcases the best of the region. Each
+              bottle is crafted with passion and care.
             </p>
-            <div class="section-gourmand-choice__button">
-              <a href="#" class="section-gourmand-choice__roller-button"
-                >Tasting</a
-              >
-            </div>
           </div>
-        </article>
-        <article class="section-gourmand-choice__roller-slides">
-          <div class="section-gourmand-choice__roller-slide">
-            <img
-              src="img/img_section_gourman_choise/port-wine.png"
-              alt="Pornt wine"
-            />
-            <h3 class="section-gourmand-choice__roller-slide-title">
-              PORT WINE
-            </h3>
-            <p class="section-gourmand-choice__roller-slide-description">
-              <em>Forfield wine</em>
-            </p>
-            <div class="section-gourmand-choice__button">
-              <a href="#" class="section-gourmand-choice__roller-button"
-                >Tasting</a
-              >
+          <!--Swiper-->
+
+          <div class="section-gourmand-choice__roller swiper-container">
+            <div class="section-gourmand-choice__roller swiper-wrapper">
+              <div class="section-gourmand-choice__slide swiper-slide">
+                <div class="section-gourmand-choice__slide-image">
+                  <!-- <img
+                    src="img/img_section_gourman_choise/eiswein-wine.png"
+                    alt="Eiswein wine"
+                  /> -->
+                  <div class="imm"></div>
+                </div>
+                <h3 class="section-gourmand-choice__roller-slide-title">
+                  EISWEIN
+                </h3>
+                <p class="section-gourmand-choice__roller-slide-description">
+                  <em>Dessert wine</em>
+                </p>
+                <div class="section-gourmand-choice__button">
+                  <a href="#" class="section-gourmand-choice__roller-button"
+                    >Tasting
+                  </a>
+                </div>
+              </div>
+              <div class="section-gourmand-choice__slide swiper-slide">
+                <div class="section-gourmand-choice__slide-image">
+                  <!-- <img
+                    src="img/img_section_gourman_choise/grenache-rose-wine.png"
+                    alt="Grenache rose wine"
+                  /> -->
+                  <div class="imm"></div>
+                </div>
+                <h3 class="section-gourmand-choice__roller-slide-title">
+                  GRENACHE ROSE
+                </h3>
+                <p class="section-gourmand-choice__roller-slide-description">
+                  <em>Vintage wine(2000)</em>
+                </p>
+                <div class="section-gourmand-choice__button">
+                  <a href="#" class="section-gourmand-choice__roller-button"
+                    >Tasting</a
+                  >
+                </div>
+              </div>
+              <div class="section-gourmand-choice__slide swiper-slide">
+                <div class="section-gourmand-choice__slide-image">
+                  <!-- <img
+                    src="img/img_section_gourman_choise/pinot-noir-wine.png"
+                    alt="Pinot noir wine"
+                  /> -->
+                  <div class="imm"></div>
+                </div>
+                <h3 class="section-gourmand-choice__roller-slide-title">
+                  PINOT NOIR
+                </h3>
+                <p class="section-gourmand-choice__roller-slide-description">
+                  <em>Vintage wine(1999)</em>
+                </p>
+                <div class="section-gourmand-choice__button">
+                  <a href="#" class="section-gourmand-choice__roller-button"
+                    >Tasting</a
+                  >
+                </div>
+              </div>
+              <div class="section-gourmand-choice__slide swiper-slide">
+                <div class="section-gourmand-choice__slide-image">
+                  <!-- <img
+                    src="img/img_section_gourman_choise/port-wine.png"
+                    alt="Pornt wine"
+                  /> -->
+                  <div class="imm"></div>
+                </div>
+                <h3 class="section-gourmand-choice__roller-slide-title">
+                  PORT WINE
+                </h3>
+                <p class="section-gourmand-choice__roller-slide-description">
+                  <em>Forfield wine</em>
+                </p>
+                <div class="section-gourmand-choice__button">
+                  <a href="#" class="section-gourmand-choice__roller-button"
+                    >Tasting</a
+                  >
+                </div>
+              </div>
             </div>
+            <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
           </div>
-        </article>
-        <div class="section-gourmand-choice__arrow">
-          <img
-            src="img/img_section_gourman_choise/arrow_right.svg"
-            alt="Arrow right"
-          />
         </div>
       </div>
     </section>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -5,6 +5,8 @@ function init() {
     import('./index.section-benefits.partial.js');
     import('./about_us.create_wines.js');
     import('./modal-window.js');
+    import('./index.section-gourmand-choise.js')
+    import('./contact_us.section-visit-us.js')
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
